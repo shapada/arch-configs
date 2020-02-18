@@ -1,0 +1,123 @@
+01:59:26 PM.790: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+01:59:26 PM.790: CPU Speed: 1174.414MHz
+01:59:26 PM.791: Physical Cores: 4, Logical Cores: 8
+01:59:26 PM.791: Physical Memory: 15898MB Total, 12749MB Free
+01:59:26 PM.791: Kernel Version: Linux 5.5.3-arch1-1
+01:59:26 PM.791: Distribution: "ArcoLinux" v20.1.4
+01:59:26 PM.792: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.7
+01:59:26 PM.793: Portable mode: false
+01:59:26 PM.849: OBS 24.0.6-1 (linux)
+01:59:26 PM.849: ---------------------------------
+01:59:26 PM.849: ---------------------------------
+01:59:26 PM.849: audio settings reset:
+01:59:26 PM.849: 	samples per sec: 44100
+01:59:26 PM.849: 	speakers:        2
+01:59:26 PM.854: ---------------------------------
+01:59:26 PM.854: Initializing OpenGL...
+01:59:26 PM.880: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 
+01:59:26 PM.880: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 19.3.3, shading language 4.60
+01:59:26 PM.893: ---------------------------------
+01:59:26 PM.893: video settings reset:
+01:59:26 PM.893: 	base resolution:   1360x768
+01:59:26 PM.893: 	output resolution: 1360x768
+01:59:26 PM.893: 	downscale filter:  Bicubic
+01:59:26 PM.893: 	fps:               60/1
+01:59:26 PM.893: 	format:            NV12
+01:59:26 PM.893: 	YUV mode:          601/Partial
+01:59:26 PM.893: NV12 texture support not available
+01:59:26 PM.893: Audio monitoring device:
+01:59:26 PM.893: 	name: Default
+01:59:26 PM.893: 	id: default
+01:59:26 PM.893: ---------------------------------
+01:59:26 PM.894: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+01:59:26 PM.950: No blackmagic support
+01:59:26 PM.959: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+01:59:26 PM.959: 
+01:59:26 PM.959: FFMPEG VAAPI supported
+01:59:26 PM.966: VLC found, VLC video source enabled
+01:59:26 PM.966: ---------------------------------
+01:59:26 PM.966:   Loaded Modules:
+01:59:26 PM.966:     vlc-video.so
+01:59:26 PM.966:     text-freetype2.so
+01:59:26 PM.966:     rtmp-services.so
+01:59:26 PM.966:     obs-x264.so
+01:59:26 PM.966:     obs-transitions.so
+01:59:26 PM.966:     obs-outputs.so
+01:59:26 PM.966:     obs-libfdk.so
+01:59:26 PM.966:     obs-filters.so
+01:59:26 PM.966:     obs-ffmpeg.so
+01:59:26 PM.966:     linux-v4l2.so
+01:59:26 PM.966:     linux-pulseaudio.so
+01:59:26 PM.966:     linux-jack.so
+01:59:26 PM.966:     linux-decklink.so
+01:59:26 PM.966:     linux-capture.so
+01:59:26 PM.966:     linux-alsa.so
+01:59:26 PM.966:     image-source.so
+01:59:26 PM.966:     frontend-tools.so
+01:59:26 PM.966:     decklink-ouput-ui.so
+01:59:26 PM.966: ---------------------------------
+01:59:26 PM.966: ==== Startup complete ===============================================
+01:59:26 PM.967: All scene data cleared
+01:59:26 PM.967: ------------------------------------------------
+01:59:26 PM.969: pulse-input: Server name: 'pulseaudio 13.0'
+01:59:26 PM.969: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:59:26 PM.969: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+01:59:26 PM.970: pulse-input: Server name: 'pulseaudio 13.0'
+01:59:26 PM.970: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+01:59:26 PM.971: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+01:59:26 PM.971: v4l2-input: Start capture from /dev/video2
+01:59:27 PM.082: v4l2-input: Input: 0
+01:59:27 PM.086: v4l2-input: Resolution: 1280x720
+01:59:27 PM.086: v4l2-input: Pixelformat: VYUY
+01:59:27 PM.086: v4l2-input: Linesize: 2560 Bytes
+01:59:27 PM.086: v4l2-input: Framerate: 10.00 fps
+01:59:27 PM.093: Switched to scene 'Scene'
+01:59:27 PM.093: ------------------------------------------------
+01:59:27 PM.093: Loaded scenes:
+01:59:27 PM.093: - scene 'Scene':
+01:59:27 PM.093:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+01:59:27 PM.093:         - filter: 'Color Correction' (color_filter)
+01:59:27 PM.093: ------------------------------------------------
+01:59:29 PM.520: adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Desktop Audio)
+01:59:29 PM.520: 
+02:42:00 PM.113: ---------------------------------
+02:42:00 PM.113: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+02:42:00 PM.113: [x264 encoder: 'simple_h264_recording'] profile: high
+02:42:00 PM.113: [x264 encoder: 'simple_h264_recording'] settings:
+02:42:00 PM.113: 	rate_control: CRF
+02:42:00 PM.113: 	bitrate:      0
+02:42:00 PM.113: 	buffer size:  0
+02:42:00 PM.113: 	crf:          21
+02:42:00 PM.113: 	fps_num:      60
+02:42:00 PM.113: 	fps_den:      1
+02:42:00 PM.113: 	width:        1360
+02:42:00 PM.113: 	height:       768
+02:42:00 PM.113: 	keyint:       250
+02:42:00 PM.113: 
+02:42:00 PM.121: libfdk_aac encoder created
+02:42:00 PM.121: libfdk_aac bitrate: 192, channels: 2
+02:42:00 PM.123: ==== Recording Start ===============================================
+02:42:00 PM.123: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sd/2020-02-13 14-42-00.mkv'...
+02:50:52 PM.184: Switched to Preview/Program mode
+02:50:52 PM.184: ------------------------------------------------
+02:51:03 PM.544: Switched to scene 'Scene'
+02:51:03 PM.548: Switched to regular Preview mode
+02:51:03 PM.548: ------------------------------------------------
+02:57:25 PM.622: ---------------------------------
+02:57:25 PM.622: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+02:57:25 PM.622: [x264 encoder: 'simple_h264_stream'] settings:
+02:57:25 PM.622: 	rate_control: CBR
+02:57:25 PM.622: 	bitrate:      4850
+02:57:25 PM.622: 	buffer size:  4850
+02:57:25 PM.622: 	crf:          0
+02:57:25 PM.622: 	fps_num:      60
+02:57:25 PM.622: 	fps_den:      1
+02:57:25 PM.622: 	width:        1360
+02:57:25 PM.622: 	height:       768
+02:57:25 PM.622: 	keyint:       120
+02:57:25 PM.622: 
+02:57:25 PM.626: libfdk_aac encoder created
+02:57:25 PM.626: libfdk_aac bitrate: 160, channels: 2
+02:57:25 PM.627: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live.stream.highwebmedia.com/live-origin...
+02:57:28 PM.157: [rtmp stream: 'simple_stream'] Connection to rtmp://live.stream.highwebmedia.com/live-origin successful
+02:57:28 PM.158: ==== Streaming Start ===============================================

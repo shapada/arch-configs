@@ -1,0 +1,80 @@
+{
+   "author": "Gildas Lormeau",
+   "background": {
+      "persistent": false,
+      "scripts": [ "lib/single-file/index.js", "extension/lib/single-file/index.js", "extension/core/index.js", "extension/ui/index.js", "extension/lib/single-file/browser-polyfill/chrome-browser-polyfill.js", "lib/single-file/vendor/css-minifier.js", "lib/single-file/vendor/css-tree.js", "lib/single-file/vendor/css-media-query-parser.js", "lib/single-file/vendor/html-srcset-parser.js", "lib/single-file/vendor/css-font-property-parser.js", "lib/single-file/vendor/css-unescape.js", "lib/single-file/single-file-util.js", "lib/single-file/single-file-helper.js", "lib/single-file/modules/css-fonts-minifier.js", "lib/single-file/modules/css-fonts-alt-minifier.js", "lib/single-file/modules/css-medias-alt-minifier.js", "lib/single-file/modules/css-matched-rules.js", "lib/single-file/modules/css-rules-minifier.js", "lib/single-file/modules/html-minifier.js", "lib/single-file/modules/html-serializer.js", "lib/single-file/modules/html-images-alt-minifier.js", "lib/single-file/single-file-core.js", "lib/single-file/single-file.js", "common/index.js", "common/ui/content/content-infobar.js", "extension/lib/single-file/core/bg/scripts.js", "extension/lib/single-file/fetch/content/content-fetch.js", "extension/lib/single-file/fetch/bg/fetch.js", "extension/lib/single-file/frame-tree/bg/frame-tree.js", "extension/lib/single-file/lazy/bg/lazy-timeout.js", "extension/lib/woleet/woleet.js", "extension/lib/gdrive/gdrive.js", "extension/core/bg/config.js", "extension/core/bg/tabs-data.js", "extension/core/bg/business.js", "extension/core/bg/messages.js", "extension/core/bg/tabs.js", "extension/core/bg/downloads.js", "extension/core/bg/autosave.js", "extension/core/bg/devtools.js", "extension/core/bg/editor.js", "extension/core/bg/bookmarks.js", "extension/ui/bg/ui-main.js", "extension/ui/bg/ui-menus.js", "extension/ui/bg/ui-commands.js", "extension/ui/bg/ui-button.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "extension/ui/resources/icon_128.png",
+         "16": "extension/ui/resources/icon_16.png",
+         "48": "extension/ui/resources/icon_48.png",
+         "64": "extension/ui/resources/icon_64.png"
+      },
+      "default_title": "__MSG_buttonDefaultTooltip__"
+   },
+   "commands": {
+      "save-all-tabs": {
+         "description": "Save all tabs",
+         "suggested_key": {
+            "default": "Ctrl+Shift+U"
+         }
+      },
+      "save-tab": {
+         "description": "Save the current tab or the selected content",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Y"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "lib/single-file/index.js", "extension/lib/single-file/index.js", "extension/lib/single-file/browser-polyfill/chrome-browser-polyfill.js", "lib/single-file/single-file-helper.js", "lib/single-file/vendor/css-unescape.js", "lib/single-file/processors/hooks/content/content-hooks-frames.js", "lib/single-file/processors/frame-tree/content/content-frame-tree.js" ],
+      "match_about_blank": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "js": [ "common/ui/content/content-infobar-web.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   }, {
+      "js": [ "lib/single-file/index.js", "lib/single-file/processors/hooks/content/content-hooks.js", "lib/single-file/modules/html-serializer.js", "extension/lib/single-file/index.js", "extension/core/index.js", "extension/core/content/content-bootstrap.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "devtools_page": "extension/ui/devtools/devtools.html",
+   "differential_fingerprint": "1.3006b5e504b6177d34516389b1b254dfb002f1c9951e73a2a95627ad06159a61",
+   "homepage_url": "https://github.com/gildas-lormeau/SingleFile",
+   "icons": {
+      "128": "extension/ui/resources/icon_128.png",
+      "16": "extension/ui/resources/icon_16.png",
+      "48": "extension/ui/resources/icon_48.png",
+      "64": "extension/ui/resources/icon_64.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwwz4r3MccpaqJfvg1sKzz/dDwX5seLHA/u2GQr1ihh6+JQqWgazUPB33ScOU6IqMhAATrlsn93Avn/rJeY8v/mKiBesBmUlLMvwHA6E3RVuZf3zNYfArUI6kH7hPG4rm+b0WqSB6s9A1vnaEoVT75ycc07FhaPM+a3LLTYBlWmwIDAQAB",
+   "manifest_version": 2,
+   "name": "SingleFile",
+   "oauth2": {
+      "client_id": "207618107333-8fpm0a5h0lho1svrhdj21sbri3via774.apps.googleusercontent.com",
+      "scopes": [ "https://www.googleapis.com/auth/drive.file" ]
+   },
+   "optional_permissions": [ "identity", "bookmarks" ],
+   "options_page": "extension/ui/pages/options.html",
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "extension/ui/pages/options.html"
+   },
+   "permissions": [ "clipboardWrite", "contextMenus", "downloads", "storage", "tabs", "\u003Call_urls>" ],
+   "sidebar_action": {
+      "browser_style": true,
+      "default_icon": "extension/ui/resources/icon_128.png",
+      "default_panel": "extension/ui/pages/panel.html",
+      "default_title": "SingleFile",
+      "open_at_install": false
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.17.0",
+   "web_accessible_resources": [ "lib/single-file/index.js", "lib/single-file/modules/html-serializer.js", "lib/single-file/processors/hooks/content/content-hooks-web.js", "lib/single-file/processors/hooks/content/content-hooks-frames-web.js", "common/ui/content/content-infobar-web.js", "extension/lib/readability/Readability.js", "extension/lib/readability/Readability-readerable.js", "extension/ui/content/content-ui-editor-web.js", "extension/ui/editor/editor-note-web.css", "extension/ui/editor/editor-mask-web.css", "extension/ui/editor/editor-frame-web.css" ]
+}

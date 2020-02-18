@@ -1,0 +1,61 @@
+{
+   "checksum": "d6ce9b61e3c1012cbf66b668b90811b0",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13223256665550909",
+            "guid": "c5cdfbe2-4aad-4f0b-916a-4508f71f3b55",
+            "id": "5",
+            "name": "d",
+            "type": "url",
+            "url": "https://efe.kim/files/scripts/dmenu_websearch"
+         }, {
+            "date_added": "13223286081162857",
+            "guid": "a72855c4-5a1f-4d76-8d23-f07508c9ab4e",
+            "id": "7",
+            "name": "My Simple Approach to using Docker and PHP",
+            "type": "url",
+            "url": "https://bitpress.io/simple-approach-using-docker-with-php/"
+         }, {
+            "date_added": "13226376420653712",
+            "guid": "08bf0c4f-4277-4168-8b14-14c6fa70dbf8",
+            "id": "9",
+            "name": "software that sucks less | suckless.org software that sucks less",
+            "type": "url",
+            "url": "https://suckless.org/rocks/"
+         }, {
+            "date_added": "13226376529572627",
+            "guid": "c3b694c4-5ca6-45b9-8a76-15b5da0cf95a",
+            "id": "10",
+            "name": "guides/ALTERNATIVES.md at master · mayfrost/guides · GitHub",
+            "type": "url",
+            "url": "https://github.com/mayfrost/guides/blob/master/ALTERNATIVES.md"
+         } ],
+         "date_added": "13223246297140011",
+         "date_modified": "13226376529572627",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13223246297140018",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13223246297140018",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,177 @@
+09:05:03 AM.817: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+09:05:03 AM.817: CPU Speed: 2272.372MHz
+09:05:03 AM.817: Physical Cores: 4, Logical Cores: 8
+09:05:03 AM.817: Physical Memory: 15898MB Total, 15210MB Free
+09:05:03 AM.817: Kernel Version: Linux 5.5.3-arch1-1
+09:05:03 AM.817: Distribution: "ArcoLinux" v20.1.4
+09:05:03 AM.818: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.7
+09:05:03 AM.822: Portable mode: false
+09:05:03 AM.929: OBS 24.0.6-1 (linux)
+09:05:03 AM.929: ---------------------------------
+09:05:03 AM.929: ---------------------------------
+09:05:03 AM.929: audio settings reset:
+09:05:03 AM.929: 	samples per sec: 44100
+09:05:03 AM.929: 	speakers:        2
+09:05:03 AM.941: ---------------------------------
+09:05:03 AM.941: Initializing OpenGL...
+09:05:03 AM.966: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 
+09:05:03 AM.966: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 19.3.3, shading language 4.60
+09:05:04 AM.033: ---------------------------------
+09:05:04 AM.033: video settings reset:
+09:05:04 AM.033: 	base resolution:   1360x768
+09:05:04 AM.033: 	output resolution: 1360x768
+09:05:04 AM.033: 	downscale filter:  Bicubic
+09:05:04 AM.033: 	fps:               60/1
+09:05:04 AM.033: 	format:            NV12
+09:05:04 AM.033: 	YUV mode:          601/Partial
+09:05:04 AM.033: NV12 texture support not available
+09:05:04 AM.033: Audio monitoring device:
+09:05:04 AM.033: 	name: Default
+09:05:04 AM.033: 	id: default
+09:05:04 AM.033: ---------------------------------
+09:05:04 AM.039: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+09:05:04 AM.135: No blackmagic support
+09:05:04 AM.206: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+09:05:04 AM.206: 
+09:05:04 AM.206: FFMPEG VAAPI supported
+09:05:04 AM.280: VLC found, VLC video source enabled
+09:05:04 AM.280: ---------------------------------
+09:05:04 AM.280:   Loaded Modules:
+09:05:04 AM.280:     vlc-video.so
+09:05:04 AM.280:     text-freetype2.so
+09:05:04 AM.280:     rtmp-services.so
+09:05:04 AM.280:     obs-x264.so
+09:05:04 AM.280:     obs-transitions.so
+09:05:04 AM.280:     obs-outputs.so
+09:05:04 AM.280:     obs-libfdk.so
+09:05:04 AM.280:     obs-filters.so
+09:05:04 AM.280:     obs-ffmpeg.so
+09:05:04 AM.280:     linux-v4l2.so
+09:05:04 AM.280:     linux-pulseaudio.so
+09:05:04 AM.280:     linux-jack.so
+09:05:04 AM.280:     linux-decklink.so
+09:05:04 AM.280:     linux-capture.so
+09:05:04 AM.280:     linux-alsa.so
+09:05:04 AM.280:     image-source.so
+09:05:04 AM.280:     frontend-tools.so
+09:05:04 AM.280:     decklink-ouput-ui.so
+09:05:04 AM.280: ---------------------------------
+09:05:04 AM.281: ==== Startup complete ===============================================
+09:05:04 AM.290: All scene data cleared
+09:05:04 AM.290: ------------------------------------------------
+09:05:04 AM.295: pulse-input: Server name: 'pulseaudio 13.0'
+09:05:04 AM.296: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:05:04 AM.296: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+09:05:04 AM.296: pulse-input: Server name: 'pulseaudio 13.0'
+09:05:04 AM.297: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+09:05:04 AM.297: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+09:05:04 AM.298: v4l2-input: Start capture from /dev/video2
+09:05:04 AM.298: v4l2-input: Unable to open device
+09:05:04 AM.298: v4l2-input: Initialization failed
+09:05:04 AM.299: Switched to scene 'Scene'
+09:05:04 AM.299: ------------------------------------------------
+09:05:04 AM.299: Loaded scenes:
+09:05:04 AM.299: - scene 'Scene':
+09:05:04 AM.299:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+09:05:04 AM.299:         - filter: 'Color Correction' (color_filter)
+09:05:04 AM.299: ------------------------------------------------
+09:05:04 AM.832: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Mic/Aux)
+09:05:04 AM.832: 
+09:05:56 AM.576: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Scene'
+09:06:00 AM.853: v4l2-input: Start capture from 
+09:06:00 AM.853: v4l2-input: Unable to open device
+09:06:00 AM.853: v4l2-input: Initialization failed
+09:06:00 AM.860: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Scene'
+09:06:00 AM.872: v4l2-input: /dev/video1 seems to not support video capture
+09:06:00 AM.982: v4l2-input: Found device 'USB2.0 HD UVC WebCam: USB2.0 HD' at /dev/video0
+09:06:00 AM.984: v4l2-input: Found input 'Camera 1' (Index 0)
+09:06:00 AM.985: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+09:06:00 AM.985: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+09:06:00 AM.985: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+09:06:00 AM.985: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+09:06:00 AM.985: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+09:06:00 AM.985: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+09:06:00 AM.987: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+09:06:00 AM.988: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:06:00 AM.996: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+09:06:00 AM.996: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+09:06:00 AM.996: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+09:06:00 AM.996: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+09:06:00 AM.996: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+09:06:00 AM.996: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+09:06:00 AM.997: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+09:06:00 AM.998: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:06:01 AM.000: v4l2-input: Start capture from /dev/video0
+09:06:01 AM.001: v4l2-input: Input: 0
+09:06:01 AM.001: v4l2-input: Selected video format not supported
+09:06:01 AM.001: v4l2-input: Initialization failed
+09:06:01 AM.008: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:06:01 AM.016: v4l2-input: Start capture from /dev/video0
+09:06:01 AM.017: v4l2-input: Input: 0
+09:06:01 AM.020: v4l2-input: Resolution: 1280x720
+09:06:01 AM.021: v4l2-input: Pixelformat: VYUY
+09:06:01 AM.021: v4l2-input: Linesize: 2560 Bytes
+09:06:01 AM.021: v4l2-input: Framerate: 10.00 fps
+09:06:10 AM.764: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:06:10 AM.848: v4l2-input: Stopped capture after 94 frames
+09:06:10 AM.868: v4l2-input: Start capture from /dev/video0
+09:06:10 AM.869: v4l2-input: Input: 0
+09:06:10 AM.870: v4l2-input: Resolution: 1280x720
+09:06:10 AM.871: v4l2-input: Pixelformat: 3RGB
+09:06:10 AM.871: v4l2-input: Linesize: 3840 Bytes
+09:06:10 AM.871: v4l2-input: Framerate: 30.00 fps
+09:06:14 AM.764: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:06:14 AM.793: v4l2-input: Stopped capture after 112 frames
+09:06:14 AM.806: v4l2-input: Start capture from /dev/video0
+09:06:14 AM.807: v4l2-input: Input: 0
+09:06:14 AM.808: v4l2-input: Resolution: 1280x720
+09:06:14 AM.808: v4l2-input: Pixelformat: 21VY
+09:06:14 AM.808: v4l2-input: Linesize: 1280 Bytes
+09:06:14 AM.808: v4l2-input: Framerate: 30.00 fps
+09:06:17 AM.919: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+09:06:17 AM.959: v4l2-input: Stopped capture after 89 frames
+09:06:17 AM.976: v4l2-input: Start capture from /dev/video0
+09:06:17 AM.977: v4l2-input: Input: 0
+09:06:17 AM.981: v4l2-input: Resolution: 1280x720
+09:06:17 AM.981: v4l2-input: Pixelformat: VYUY
+09:06:17 AM.981: v4l2-input: Linesize: 2560 Bytes
+09:06:17 AM.982: v4l2-input: Framerate: 10.00 fps
+09:06:21 AM.473: v4l2-input: Stopped capture after 31 frames
+09:06:21 AM.485: v4l2-input: Start capture from /dev/video0
+09:06:21 AM.487: v4l2-input: Input: 0
+09:06:21 AM.490: v4l2-input: Resolution: 1280x720
+09:06:21 AM.490: v4l2-input: Pixelformat: VYUY
+09:06:21 AM.490: v4l2-input: Linesize: 2560 Bytes
+09:06:21 AM.490: v4l2-input: Framerate: 10.00 fps
+09:06:24 AM.468: v4l2-input: Stopped capture after 26 frames
+09:06:24 AM.481: v4l2-input: Start capture from /dev/video0
+09:06:24 AM.481: v4l2-input: Input: 0
+09:06:24 AM.485: v4l2-input: Resolution: 1280x720
+09:06:24 AM.485: v4l2-input: Pixelformat: VYUY
+09:06:24 AM.485: v4l2-input: Linesize: 2560 Bytes
+09:06:24 AM.487: v4l2-input: Framerate: 10.00 fps
+09:06:27 AM.468: v4l2-input: Stopped capture after 26 frames
+09:06:27 AM.487: v4l2-input: Start capture from /dev/video0
+09:06:27 AM.488: v4l2-input: Input: 0
+09:06:27 AM.492: v4l2-input: Resolution: 1280x720
+09:06:27 AM.492: v4l2-input: Pixelformat: VYUY
+09:06:27 AM.492: v4l2-input: Linesize: 2560 Bytes
+09:06:27 AM.494: v4l2-input: Framerate: 10.00 fps
+09:08:42 AM.696: ---------------------------------
+09:08:42 AM.696: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+09:08:42 AM.698: [x264 encoder: 'simple_h264_stream'] settings:
+09:08:42 AM.698: 	rate_control: CBR
+09:08:42 AM.698: 	bitrate:      4850
+09:08:42 AM.698: 	buffer size:  4850
+09:08:42 AM.698: 	crf:          0
+09:08:42 AM.698: 	fps_num:      60
+09:08:42 AM.698: 	fps_den:      1
+09:08:42 AM.698: 	width:        1360
+09:08:42 AM.698: 	height:       768
+09:08:42 AM.698: 	keyint:       120
+09:08:42 AM.698: 
+09:08:42 AM.718: libfdk_aac encoder created
+09:08:42 AM.718: libfdk_aac bitrate: 160, channels: 2
+09:08:42 AM.718: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live.stream.highwebmedia.com/live-origin...
+09:08:43 AM.893: [rtmp stream: 'simple_stream'] Connection to rtmp://live.stream.highwebmedia.com/live-origin successful
+09:08:43 AM.893: ==== Streaming Start ===============================================

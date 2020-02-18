@@ -1,0 +1,70 @@
+=============== Jan 12, 2020 (CST) ===============
+19:05:08.786358 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:05:08.790826 db@open opening
+19:05:08.793387 version@stat F·[] S·0B[] Sc·[]
+19:05:08.796763 db@janitor F·2 G·0
+19:05:08.796837 db@open done T·5.959663ms
+19:07:50.212219 db@close closing
+19:07:50.212403 db@close done T·180.117µs
+=============== Jan 12, 2020 (CST) ===============
+19:07:51.253336 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:07:51.253440 version@stat F·[] S·0B[] Sc·[]
+19:07:51.253458 db@open opening
+19:07:51.253496 journal@recovery F·1
+19:07:51.254569 journal@recovery recovering @1
+19:07:51.258966 memdb@flush created L0@2 N·8 S·291B "\x04de..can,v8":"\npr..ion,v3"
+19:07:51.259469 version@stat F·[1] S·291B[291B] Sc·[0.25]
+19:07:51.282919 db@janitor F·3 G·0
+19:07:51.282979 db@open done T·29.50682ms
+=============== Feb 15, 2020 (CST) ===============
+12:26:52.946786 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:26:52.948748 version@stat F·[1] S·291B[291B] Sc·[0.25]
+12:26:52.948766 db@open opening
+12:26:52.948800 journal@recovery F·1
+12:26:52.949403 journal@recovery recovering @3
+12:26:52.955058 memdb@flush created L0@5 N·2 S·162B "\x04de..can,v11":"\x04de..can,v10"
+12:26:52.955295 version@stat F·[2] S·453B[453B] Sc·[0.50]
+12:26:52.968387 db@janitor F·4 G·0
+12:26:52.968507 db@open done T·19.679872ms
+14:50:05.354442 db@close closing
+14:50:05.354671 db@close done T·226.751µs
+=============== Feb 15, 2020 (CST) ===============
+20:38:08.169189 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:38:08.173906 version@stat F·[2] S·453B[453B] Sc·[0.50]
+20:38:08.173948 db@open opening
+20:38:08.174030 journal@recovery F·1
+20:38:08.174642 journal@recovery recovering @6
+20:38:08.178959 memdb@flush created L0@8 N·6 S·245B "\x04de..can,v18":"\npr..ion,v13"
+20:38:08.179321 version@stat F·[3] S·698B[698B] Sc·[0.75]
+20:38:08.190812 db@janitor F·5 G·0
+20:38:08.190834 db@open done T·16.878049ms
+=============== Feb 15, 2020 (CST) ===============
+21:42:33.309967 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:42:33.311437 version@stat F·[3] S·698B[698B] Sc·[0.75]
+21:42:33.311472 db@open opening
+21:42:33.311540 journal@recovery F·1
+21:42:33.312403 journal@recovery recovering @9
+21:42:33.338178 memdb@flush created L0@11 N·6959 S·631KiB "\x00\x00\x00..mkv,v4162":"\v\x00\x00..\x00\x00\x06,v5878"
+21:42:33.338921 version@stat F·[4] S·631KiB[631KiB] Sc·[1.00]
+21:42:33.347917 db@janitor F·6 G·0
+21:42:33.347952 db@open done T·36.465025ms
+21:42:33.348036 table@compaction L0·4 -> L1·0 S·631KiB Q·6979
+21:42:33.365291 table@build created L1@14 N·6965 S·631KiB "\x00\x00\x00..mkv,v4162":"\v\x00\x00..\x00\x00\x06,v5878"
+21:42:33.365349 version@stat F·[0 1] S·631KiB[0B 631KiB] Sc·[0.00 0.01]
+21:42:33.368250 table@compaction committed F-3 S-611B Ke·0 D·10 T·20.178232ms
+21:42:33.368640 table@remove removed @8
+21:42:33.369015 table@remove removed @5
+21:42:33.369399 table@remove removed @2
+22:48:27.090782 db@close closing
+22:48:27.091058 db@close done T·266.149µs
+=============== Feb 15, 2020 (CST) ===============
+23:46:24.334661 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:46:24.337164 version@stat F·[0 1] S·631KiB[0B 631KiB] Sc·[0.00 0.01]
+23:46:24.337253 db@open opening
+23:46:24.337495 journal@recovery F·1
+23:46:24.337963 journal@recovery recovering @12
+23:46:24.341912 memdb@flush created L0@15 N·2 S·161B "\x04de..can,v6981":"\x04de..can,v6980"
+23:46:24.344776 version@stat F·[1 1] S·631KiB[161B 631KiB] Sc·[0.25 0.01]
+23:46:24.356024 db@janitor F·5 G·1
+23:46:24.356033 db@janitor removing table-11
+23:46:24.356064 db@open done T·18.706227ms

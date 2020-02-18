@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"https://docs.platformio.org":{"supports_spdy":true}},{"https://img.shields.io":{"supports_spdy":true}},{"https://raster.shields.io":{"supports_spdy":true}},{"https://abs.twimg.com":{"supports_spdy":true}},{"https://www.google-analytics.com":{"supports_spdy":true}}],"version":5}}}

@@ -1,0 +1,4 @@
+file:///home/sd/bin/fzfmenu_run {"mtime":1581991775389,"ctime":1581795833394,"size":19,"etag":"34khb3q6jj","orphaned":false}
+#!/usr/bin/env bash
+
+$(history | sort  -u 1)

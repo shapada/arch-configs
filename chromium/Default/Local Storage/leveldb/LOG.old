@@ -1,0 +1,6 @@
+2020/02/17-18:31:01.039 3fc8 Reusing MANIFEST /home/sd/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/02/17-18:31:01.040 3fc8 Recovering log #116
+2020/02/17-18:31:01.040 3fc8 Reusing old log /home/sd/.config/chromium/Default/Local Storage/leveldb/000116.log 
+2020/02/17-18:38:37.496 44e2 Level-0 table #120: started
+2020/02/17-18:38:37.505 44e2 Level-0 table #120: 59114 bytes OK
+2020/02/17-18:38:37.510 44e2 Delete type=0 #116

@@ -1,0 +1,24 @@
+{
+   "browser_action": {
+      "default_icon": "icon-48x48.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content_main.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Take control over video playback speed! Change video/audio playback rates of HTML5 media including YouTube videos.",
+   "icons": {
+      "128": "icon-128x128.png",
+      "16": "icon-16x16.png",
+      "48": "icon-48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyurGKSvR2x/hKfxAOe0BaM2cZ2hDBon0CjCt0qVIYeV+qavy5+9TeHpRJvec5mTC9qumVdrI55yTeGfkPj5cBivKbHgKmiphJpi9RBwXA1BDOtwwLoDaNqD2w4FCDp6wrq7OaAmk9z9DaG4NaJhfQSjTOrlWyHw9+70uLye+9nRbs1eKwBC852K9ZwWCsaAl0GByW962FLALGSOQ+Umkog4MLD+2AJw5PnjxMkY2JSlwmi3IfkGYsdXL265TDTiw1M+5r82DBhxIN6SaZbXmjkl6yvNeboD08F3uiQ2sDzTKoP7xutZntQht0kOXGpdiPJjkjcZm/o1WzFULlgmqPQIDAQAB",
+   "manifest_version": 2,
+   "name": "Playback Rate Controller",
+   "permissions": [ "activeTab", "\u003Call_urls>" ],
+   "short_name": "PRC",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.1"
+}

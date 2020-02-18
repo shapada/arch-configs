@@ -1,0 +1,10 @@
+2020-02-13 06:05:19.821 (0x7fffbca252e0) Debug: D-Bus system tray: no
+2020-02-13 06:05:19.843 (0x7fffbca252e0) Debug: BatteryChanged discharging: true chargeLevel: 98.7119 actionTime: QTime(Invalid)
+2020-02-13 06:05:19.892 (0x7fffbca252e0) Debug: Inhibit got: 26
+2020-02-13 06:05:19.920 (0x7fffbca252e0) Warning: QDBusConnection: name 'org.freedesktop.UDisks2' had owner '' but we thought it was ':1.203'
+2020-02-13 06:05:20.007 (0x7fffbca252e0) Debug: Starting idlenesswatcher
+2020-02-13 06:05:29.084 (0x7ffc8d4b32a0) Warning: Unable to register 'org.lxqt.lxqt-powermanagement' service - is another instance of lxqt-powermanagement running?
+2020-02-13 06:07:20.598 (0x7fffbca252e0) Debug: BatteryChanged discharging: true chargeLevel: 97.9802 actionTime: QTime(Invalid)
+2020-02-13 06:09:20.689 (0x7fffbca252e0) Debug: BatteryChanged discharging: true chargeLevel: 97.0762 actionTime: QTime(Invalid)
+2020-02-13 06:11:20.674 (0x7fffbca252e0) Debug: BatteryChanged discharging: true chargeLevel: 96.2386 actionTime: QTime(Invalid)
+2020-02-13 06:13:20.594 (0x7fffbca252e0) Debug: BatteryChanged discharging: true chargeLevel: 95.3346 actionTime: QTime(Invalid)

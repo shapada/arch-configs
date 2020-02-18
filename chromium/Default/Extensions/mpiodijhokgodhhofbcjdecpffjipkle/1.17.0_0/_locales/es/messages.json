@@ -1,0 +1,622 @@
+{
+   "buttonAutoSaveActiveBadge": {
+      "description": "Badge label when auto-save is active",
+      "message": "[A]"
+   },
+   "buttonAutoSaveActiveTooltip": {
+      "description": "Button title: 'Auto-save active'",
+      "message": "Auto-guardar activado"
+   },
+   "buttonBlockedBadge": {
+      "description": "Button badge when the page is blocked: '🚫'",
+      "message": "🚫"
+   },
+   "buttonBlockedTooltip": {
+      "description": "Button title: 'This page cannot be saved with SingleFile'",
+      "message": "Esta página no se puede guardar con SingleFile"
+   },
+   "buttonDefaultTooltip": {
+      "description": "Button title: 'Save page with SingleFile'",
+      "message": "Guardar página con SingleFile"
+   },
+   "buttonErrorBadge": {
+      "description": "Badge label for unexpected errors",
+      "message": "ERR"
+   },
+   "buttonInitializingBadge": {
+      "description": "Badge label during initialization: '•••'",
+      "message": "•••"
+   },
+   "buttonInitializingTooltip": {
+      "description": "Button title during initialization: 'Initializing SingleFile (x/2)'",
+      "message": "Inicializando SingleFile"
+   },
+   "buttonOKBadge": {
+      "description": "Badge label: 'OK'",
+      "message": "OK"
+   },
+   "buttonSaveProgressTooltip": {
+      "description": "Button title during save: 'Save progress: xx%'",
+      "message": "Progresión del guardado: "
+   },
+   "buttonUploadProgressTooltip": {
+      "description": "Button title during save: 'Upload progress: xx%'",
+      "message": "Progresión del upload: "
+   },
+   "editorAddBlueNote": {
+      "description": "Title of the button 'Add a blue note' in the editor",
+      "message": "Add a blue note"
+   },
+   "editorAddGreenNote": {
+      "description": "Title of the button 'Add a green note' in the editor",
+      "message": "Add a green note"
+   },
+   "editorAddPinkNote": {
+      "description": "Title of the button 'Add a pink note' in the editor",
+      "message": "Add a pink note"
+   },
+   "editorAddYellowNote": {
+      "description": "Title of the button 'Add a yellow note' in the editor",
+      "message": "Add a yellow note"
+   },
+   "editorCutPage": {
+      "description": "Title of the button 'Enable/disable removing document's element on click' in the editor",
+      "message": "Enable/disable removing document's element on click"
+   },
+   "editorEditPage": {
+      "description": "Title of the button 'Enable/disable read-only' in the editor",
+      "message": "Enable/disable read-only"
+   },
+   "editorFormatPage": {
+      "description": "Title of the button 'Format the page for better readability' in the editor",
+      "message": "Format the page for better readability"
+   },
+   "editorHighlightBlue": {
+      "description": "Title of the button 'Highlight selected text in blue' in the editor",
+      "message": "Highlight selected text in blue"
+   },
+   "editorHighlightGreen": {
+      "description": "Title of the button 'Highlight selected text in green' in the editor",
+      "message": "Highlight selected text in green"
+   },
+   "editorHighlightPink": {
+      "description": "Title of the button 'Highlight selected text in pink' in the editor",
+      "message": "Highlight selected text in pink"
+   },
+   "editorHighlightYellow": {
+      "description": "Title of the button 'Highlight selected text in yellow' in the editor",
+      "message": "Highlight selected text in yellow"
+   },
+   "editorRemoveHighlight": {
+      "description": "Title of the button 'Remove the selected highlighted text' in the editor",
+      "message": "Remove the selected highlighted text"
+   },
+   "editorSavePage": {
+      "description": "Title of the button 'Save the page' in the editor",
+      "message": "Save the page"
+   },
+   "editorToggleHighlights": {
+      "description": "Title of the button 'Display/hide the highlighted text' in the editor",
+      "message": "Display/hide the highlighted text"
+   },
+   "editorToggleNotes": {
+      "description": "Title of the button 'Display/hide notes' in the editor",
+      "message": "Display/hide notes"
+   },
+   "editorUndoAllCutPage": {
+      "description": "Title of the button 'Restore all removed elements' in the editor",
+      "message": "Restore all removed elements"
+   },
+   "editorUndoCutPage": {
+      "description": "Title of the button 'Restore last removed element' in the editor",
+      "message": "Restore last removed element"
+   },
+   "extensionDescription": {
+      "description": "Description of the extension.",
+      "message": "Guarda una página completa en un único archivo HTML"
+   },
+   "logPanelDeferredImages": {
+      "description": "Label 'Deferred images' in the log panel",
+      "message": "Imágenes diferidas"
+   },
+   "logPanelFrameContents": {
+      "description": "Label 'Frame contents' in the log panel",
+      "message": "Contenidos de marco (frame)"
+   },
+   "logPanelStep": {
+      "description": "Label 'Step' (for 'Step x / 4') in the log panel",
+      "message": "Nivel"
+   },
+   "logPanelWidth": {
+      "description": "Width of the log panel in pixels, it should be adjusted for the longest label beginning with 'log' (e.g. 'logPanelDeferredImages')",
+      "message": "192"
+   },
+   "menuAutoSave": {
+      "description": "Menu entry: 'Auto-save'",
+      "message": "Auto-guardar"
+   },
+   "menuAutoSaveAllTabs": {
+      "description": "Menu entry: 'Auto-save' > Auto-save all tabs'",
+      "message": "Auto-guardar todas las pestañas"
+   },
+   "menuAutoSaveDisabled": {
+      "description": "Menu entry: 'Auto-save' > Disabled'",
+      "message": "Deshabilitado"
+   },
+   "menuAutoSaveTab": {
+      "description": "Menu entry: 'Auto-save' > Auto-save this tab'",
+      "message": "Auto-guardar esta pestaña"
+   },
+   "menuAutoSaveUnpinnedTabs": {
+      "description": "Menu entry: 'Auto-save' > Auto-save unpinned tabs'",
+      "message": "Auto-guardar pestañas no fijadas"
+   },
+   "menuCreateDomainRule": {
+      "description": "Menu entry: 'Select the profile of the current domain'",
+      "message": "Seleccionar el perfil del dominio actual"
+   },
+   "menuEditAndSavePage": {
+      "description": "Menu entry: 'Annotate and save the page...'",
+      "message": "Anotar y guardar la página"
+   },
+   "menuSaveAllTabs": {
+      "description": "Menu entry: 'Save all tabs'",
+      "message": "Guardar todas las pestañas"
+   },
+   "menuSaveFrame": {
+      "description": "Menu entry: 'Save frame'",
+      "message": "Guardar marco (frame)"
+   },
+   "menuSavePage": {
+      "description": "Menu entry: 'Save page with SingleFile'",
+      "message": "Guardar página con SingleFile"
+   },
+   "menuSaveSelectedLinks": {
+      "description": "Menu entry: 'Save selected links'",
+      "message": "Guardar los links seleccionados"
+   },
+   "menuSaveSelectedTabs": {
+      "description": "Menu entry: 'Save selected tabs'",
+      "message": "Guardar pestañas seleccionadas"
+   },
+   "menuSaveSelection": {
+      "description": "Menu entry: 'Save selection'",
+      "message": "Guardar selección"
+   },
+   "menuSaveTabs": {
+      "description": "Menu entry (SingleFile button only): 'Save tabs'",
+      "message": "Guardar pestañas"
+   },
+   "menuSaveUnpinnedTabs": {
+      "description": "Menu entry: 'Save unpinned tabs'",
+      "message": "Guardar pestañas no fijadas"
+   },
+   "menuSelectProfile": {
+      "description": "Menu entry: 'Select the default profile'",
+      "message": "Seleccionar el perfil predeterminado"
+   },
+   "menuUpdateRule": {
+      "description": "Menu entry: 'Select the profile of the current rule'",
+      "message": "Seleccionar el perfil de la regla actual"
+   },
+   "menuViewPendingSaves": {
+      "description": "Menu entry: 'View pending saves...'",
+      "message": "View pending saves..."
+   },
+   "optionAddMenuEntry": {
+      "description": "Options page label: 'add entry in the context menu of the webpage'",
+      "message": "añadir entrada en el menú contextual de la página web"
+   },
+   "optionAddProof": {
+      "description": "Options page label: 'add proof of existence'",
+      "message": "añadir prueba de existencia"
+   },
+   "optionAutoClose": {
+      "description": "Options page label: 'auto-close the tab after the page is saved'",
+      "message": "cerrar automáticamente la pestaña después de guardar la página"
+   },
+   "optionAutoOpenEditor": {
+      "description": "Options page label: 'open pages saved with SingleFile in the annotation editor'",
+      "message": "open pages saved with SingleFile in the annotation editor"
+   },
+   "optionAutoSaveDelay": {
+      "description": "Options page label: 'auto-save waiting delay after page load (s)'",
+      "message": "retardo de auto-guardado tras cargar la página (s)"
+   },
+   "optionAutoSaveLoad": {
+      "description": "Options page label: 'auto-save after page load'",
+      "message": "auto-guardar tras cargar la página"
+   },
+   "optionAutoSaveLoadOrUnload": {
+      "description": "auto-save after page load or on page unload",
+      "message": "auto-guardar tras cargar la página o al purgar la página"
+   },
+   "optionAutoSaveRepeat": {
+      "description": "Options page label: 'auto-save periodically'",
+      "message": "auto-guardar periódicamente"
+   },
+   "optionAutoSaveRepeatDelay": {
+      "description": "Options page label: 'period (s)'",
+      "message": "periodo (s)"
+   },
+   "optionAutoSaveUnload": {
+      "description": "Options page label: 'auto-save on page unload'",
+      "message": "auto-guardar al purgar la página"
+   },
+   "optionBackgroundSave": {
+      "description": "Options page label: 'save pages in background'",
+      "message": "guardar páginas en segundo plano"
+   },
+   "optionCompressCSS": {
+      "description": "Options page label: 'compress CSS content'",
+      "message": "comprimir contenido CSS"
+   },
+   "optionCompressHTML": {
+      "description": "Options page label: 'compress HTML content'",
+      "message": "comprimir contenido HTML"
+   },
+   "optionConfirmFilename": {
+      "description": "Options page label: 'open the \"Save as\" dialog to confirm the file name'",
+      "message": "abrir el cuadro de diálogo \"Guardar como\" para confirmar el nombre del archivo"
+   },
+   "optionConfirmInfobar": {
+      "description": "Options page label: 'open a prompt dialog to edit the infobar content'",
+      "message": "abrir un cuadro de diálogo para editar el contenido de la barra informativa"
+   },
+   "optionDisplayInfobar": {
+      "description": "Options page label: 'display an infobar when viewing a saved page'",
+      "message": "mostrar una barra informativa al ver una página guardada"
+   },
+   "optionDisplayShadow": {
+      "description": "Options page label: 'overlay a shadow on the page during processing'",
+      "message": "cubrir la página con un sombreado durante el procesado"
+   },
+   "optionDisplayStats": {
+      "description": "Options page label: 'display stats in the console after processing'",
+      "message": "mostrar estadísticas en la consola tras el procesado"
+   },
+   "optionFilenameConflictAction": {
+      "description": "Options page label: 'filename conflict resolution'",
+      "message": "resolución de conflictos de nombre de archivo"
+   },
+   "optionFilenameConflictActionOverwrite": {
+      "description": "Value for 'filename conflict resolution' option: 'overwrite the existing file'",
+      "message": "sobrescribir el archivo existente"
+   },
+   "optionFilenameConflictActionPrompt": {
+      "description": "Value for 'name conflict resolution' option: 'prompt for a name'",
+      "message": "preguntar por un nombre"
+   },
+   "optionFilenameConflictActionUniquify": {
+      "description": "Value for 'filename conflict resolution' option: 'create a unique name'",
+      "message": "crear un nombre exclusivo"
+   },
+   "optionFilenameTemplate": {
+      "description": "Options page label: 'template'",
+      "message": "plantilla"
+   },
+   "optionGroupDuplicateImages": {
+      "description": "Options page label: 'group duplicate images together'",
+      "message": "agrupar imágenes duplicadas combinadamente"
+   },
+   "optionIncludeInfobar": {
+      "description": "Options page label: 'include the infobar in the saved page'",
+      "message": "incluir la barra informativa en la página guardada"
+   },
+   "optionInfobarTemplate": {
+      "description": "Options page label: 'template of the infobar content'",
+      "message": "plantilla del contenido de la barra informativa"
+   },
+   "optionLoadDeferredImages": {
+      "description": "Options page label: 'save deferred images'",
+      "message": "guardar imágenes diferidas"
+   },
+   "optionLoadDeferredImagesMaxIdleTime": {
+      "description": "Options page label: 'maximum idle time (ms)'",
+      "message": "periodo máximo de espera (ms)"
+   },
+   "optionMaxResourceSize": {
+      "description": "Options page label: 'maximum size (MB)'",
+      "message": "tamaño máximo (MB)"
+   },
+   "optionOpenEditor": {
+      "description": "Options page label: 'annotate the page before saving'",
+      "message": "annotate the page before saving"
+   },
+   "optionRemoveAlternativeFonts": {
+      "description": "Options page label: 'remove alternative fonts'",
+      "message": "eliminar fuentes alternativas"
+   },
+   "optionRemoveAlternativeImages": {
+      "description": "Options page label: 'remove images for alternative screen resolutions'",
+      "message": "eliminar imágenes para resoluciones alternativas de pantalla"
+   },
+   "optionRemoveAlternativeMedias": {
+      "description": "Options page label: 'remove stylesheets for alternative devices to screens'",
+      "message": "eliminar hojas de estilo para dispositivos alternativos a las pantallas"
+   },
+   "optionRemoveAudio": {
+      "description": "Options page label: 'remove audio sources'",
+      "message": "eliminar fuentes de audio"
+   },
+   "optionRemoveFrames": {
+      "description": "Options page label: 'remove frames'",
+      "message": "eliminar marcos (frame)"
+   },
+   "optionRemoveHiddenElements": {
+      "description": "Options page label: 'remove hidden elements'",
+      "message": "eliminar elementos ocultos (hidden)"
+   },
+   "optionRemoveImports": {
+      "description": "Options page label: 'remove HTML imports'",
+      "message": "eliminar importaciones de HTML (import)"
+   },
+   "optionRemoveScripts": {
+      "description": "Options page label: 'remove scripts'",
+      "message": "eliminar scripts"
+   },
+   "optionRemoveUnusedFonts": {
+      "description": "Options page label: 'remove unused fonts'",
+      "message": "eliminar fuentes no usadas"
+   },
+   "optionRemoveUnusedStyles": {
+      "description": "Options page label: 'remove unused styles'",
+      "message": "eliminar estilos no usados"
+   },
+   "optionRemoveVideo": {
+      "description": "Options page label: 'remove video sources'",
+      "message": "eliminar fuentes de vídeo"
+   },
+   "optionReplaceBookmarkURL": {
+      "description": "Options page label: 'link the new bookmark to the saved page'",
+      "message": "enlazar el nuevo marcador a la página guardada"
+   },
+   "optionSaveCreatedBookmarks": {
+      "description": "Options page label: 'save the page of a newly created bookmark'",
+      "message": "guardar la página de un marcador recién creado"
+   },
+   "optionSaveRawPage": {
+      "description": "Options page label: 'save raw page'",
+      "message": "guardar página en crudo"
+   },
+   "optionSaveToClipboard": {
+      "description": "Options page label: 'save to clipboard'",
+      "message": "guardar en el portapapeles"
+   },
+   "optionSaveToGDrive": {
+      "description": "Options page label: 'save to Google Drive'",
+      "message": "save en Google Drive"
+   },
+   "optionSetMaxResourceSize": {
+      "description": "Options page label: 'set a maximum size for embedded resources'",
+      "message": "establecer un tamaño máximo para recursos incrustados"
+   },
+   "optionSynchronize": {
+      "description": "Options label: 'synchronize options'",
+      "message": "sincronizar opciones"
+   },
+   "optionsAddProofConfirm": {
+      "description": "Popup text displayed wen enabling the option 'add proof of existence'",
+      "message": "Confirm you allow SingleFile to send to the Woleet API a SHA256 hash of each page you are going to save. You can find more information about this feature in the help page or by clicking on the question mark next to the option."
+   },
+   "optionsAddRuleTooltip": {
+      "description": "Popup text 'Add the rule' in the options page",
+      "message": "Añadir la regla"
+   },
+   "optionsAutoSaveSubTitle": {
+      "description": "Options sub-title: 'Auto-save'",
+      "message": "Auto-guardado"
+   },
+   "optionsAutoSettingsAutoSaveProfile": {
+      "description": "Options label in the Auto-settings rules: 'Auto-save profile'",
+      "message": "Perfil de auto-guardado"
+   },
+   "optionsAutoSettingsProfile": {
+      "description": "Options label in the Auto-settings rules: 'Profile'",
+      "message": "Perfil"
+   },
+   "optionsAutoSettingsShowAllProfiles": {
+      "description": "Options label in the Auto-settings rules: 'display all profiles'",
+      "message": "mostrar todos los perfiles"
+   },
+   "optionsAutoSettingsShowAutoSaveProfile": {
+      "description": "Options label in the Auto-settings rules: 'display 'Auto-save profile' column'",
+      "message": "mostrar columna 'Perfil de auto-guardado'"
+   },
+   "optionsAutoSettingsSubTitle": {
+      "description": "Options sub-title: 'Auto-settings rules'",
+      "message": "Reglas de auto-guardado"
+   },
+   "optionsAutoSettingsUrl": {
+      "description": "Options label in the Auto-settings rules: 'URL'",
+      "message": "URL"
+   },
+   "optionsAutoSettingsUrlPlaceholder": {
+      "description": "Placeholder in the Auto-settings rules: 'Type a complete or partial URL (e.g. example.com)'",
+      "message": "Escriba una URL parcial o completa (ej. ejemplo.com)"
+   },
+   "optionsCancelButton": {
+      "description": "Options confirm button: 'Cancel'",
+      "message": "Cancelar"
+   },
+   "optionsDeleteDisplayedRulesConfirm": {
+      "description": "Popup text 'Confirm the deletion of all displayed rules'",
+      "message": "Confirmar la eliminación de todas las reglas mostradas"
+   },
+   "optionsDeleteRuleConfirm": {
+      "description": "Popup text 'Confirm the deletion of the selected rule' in the options page",
+      "message": "Confirmar la eliminación de la regla seleccionada"
+   },
+   "optionsDeleteRuleTooltip": {
+      "description": "Popup text 'Delete the rule' in the options page",
+      "message": "Eliminar la regla"
+   },
+   "optionsDeleteRulesTooltip": {
+      "description": "Popup text 'Delete all displayed rules'",
+      "message": "Elimina todas las reglas mostradas"
+   },
+   "optionsExportButton": {
+      "description": "Options button: 'Export'",
+      "message": "Exportar"
+   },
+   "optionsFileNameSubTitle": {
+      "description": "Options sub-title: 'File name'",
+      "message": "Nombre del archivo"
+   },
+   "optionsFontsSubTitle": {
+      "description": "Options sub-title: 'Fonts'",
+      "message": "Fuentes"
+   },
+   "optionsHTMLContentSubTitle": {
+      "description": "Options sub-title: 'HTML content'",
+      "message": "Contenido HTML"
+   },
+   "optionsHelpLink": {
+      "description": "Options help link",
+      "message": "ayuda"
+   },
+   "optionsImagesSubTitle": {
+      "description": "Options sub-title: 'Images'",
+      "message": "Imágenes"
+   },
+   "optionsImportButton": {
+      "description": "Options button: 'Import'",
+      "message": "Importar"
+   },
+   "optionsMiscSubTitle": {
+      "description": "Options sub-title: 'Misc.'",
+      "message": "Miscelánea"
+   },
+   "optionsOKButton": {
+      "description": "Options confirm button: 'OK'",
+      "message": "Aceptar"
+   },
+   "optionsOtherResourcesSubTitle": {
+      "description": "Options sub-title: 'Other resources'",
+      "message": "Otros recursos"
+   },
+   "optionsResetAllButton": {
+      "description": "Options confirm button: 'Reset all options'",
+      "message": "Restablecer todas las ocpiones"
+   },
+   "optionsResetButton": {
+      "description": "Options button: 'Reset'",
+      "message": "Restablecer"
+   },
+   "optionsResetConfirm": {
+      "description": "Popup text 'Confirm the reset of all options or the current profile' in the options page",
+      "message": "Confirmar el restablecimiento de todas las opciones o del perfil actual"
+   },
+   "optionsResetCurrentButton": {
+      "description": "Options confirm button: 'Reset current profile'",
+      "message": "Restablecer el perfil actual"
+   },
+   "optionsResetTooltip": {
+      "description": "Options 'Reset' button tooltip",
+      "message": "Restablece todas las opciones a sus valores predeterminados"
+   },
+   "optionsStylesheetsSubTitle": {
+      "description": "Options sub-title: 'Stylesheets'",
+      "message": "Hojas de estilo"
+   },
+   "optionsTitle": {
+      "description": "Options page title",
+      "message": "Opciones"
+   },
+   "optionsUpdateRuleTooltip": {
+      "description": "Popup text 'Update the rule' in the options page",
+      "message": "Actualizar la regla"
+   },
+   "optionsUserInterfaceSubTitle": {
+      "description": "Options sub-title: 'User interface'",
+      "message": "Interfaz de usuario"
+   },
+   "optionsValidateChangesTooltip": {
+      "description": "Popup text 'Validate changes' in the options page",
+      "message": "Validar cambios"
+   },
+   "pendingsAddUrls": {
+      "description": "Label of the add URLs input",
+      "message": "Enter a list of URLs separated by a new line"
+   },
+   "pendingsAddUrlsButton": {
+      "description": "button 'Add URLs'",
+      "message": "Add URLs"
+   },
+   "pendingsAddUrlsCancelButton": {
+      "description": "Add URLs popup cancel button: 'Cancel'",
+      "message": "Cancel"
+   },
+   "pendingsAddUrlsOKButton": {
+      "description": "Add URLs popup confirm button: 'OK'",
+      "message": "OK"
+   },
+   "pendingsCancelAllButton": {
+      "description": "Pending saves button 'Cancel all'",
+      "message": "Cancel all"
+   },
+   "pendingsCancellingStatus": {
+      "description": "Value of 'status' for cancelled saves",
+      "message": "cancelling"
+   },
+   "pendingsNoPendings": {
+      "description": "Label displayed when they are no pending saves",
+      "message": "No pending saves"
+   },
+   "pendingsPendingStatus": {
+      "description": "Value of 'status' for pending saves",
+      "message": "pending"
+   },
+   "pendingsProcessingStatus": {
+      "description": "Value of 'status' for current saves",
+      "message": "processing"
+   },
+   "pendingsStatusTitle": {
+      "description": "Title of the second column in the table of the pending saves 'status'",
+      "message": "status"
+   },
+   "pendingsTitle": {
+      "description": "Title of the pending save page 'Pending saves' in the editor",
+      "message": "Pending saves"
+   },
+   "pendingsTitleTitle": {
+      "description": "Title of the first column in the table of the pending saves 'Title'",
+      "message": "Title"
+   },
+   "pendingsURLTitle": {
+      "description": "Title of the first column in the table of the pending saves 'URL'",
+      "message": "URL"
+   },
+   "profileAddButtonTooltip": {
+      "description": "Tooltip 'Add a new profile' in the options page",
+      "message": "Añade un perfil nuevo"
+   },
+   "profileAddPrompt": {
+      "description": "Popup text 'Enter a name for this new profile' in the options page",
+      "message": "Introducir un nombre para este nuevo perfil"
+   },
+   "profileDefaultSettings": {
+      "description": "Label 'Default settings' of the default settings in the options page",
+      "message": "Configuración predeterminada"
+   },
+   "profileDeleteButtonTooltip": {
+      "description": "Tooltip 'Delete the profile' in the options page",
+      "message": "Elimina el perfil"
+   },
+   "profileDeleteConfirm": {
+      "description": "Popup text 'Confirm the deletion of the selected profile' in the options page",
+      "message": "Confirmar la eliminación del perfil seleccionado"
+   },
+   "profileDisabled": {
+      "description": "Label 'Disabled' of the disabled profile name in the options page",
+      "message": "Deshabilitado"
+   },
+   "profileRenameButtonTooltip": {
+      "description": "Tooltip 'Rename the profile' in the options page",
+      "message": "Renombra el perfil"
+   },
+   "profileRenamePrompt": {
+      "description": "Popup text 'Enter a new name for the selected profile' in the options page",
+      "message": "Introducir un nuevo nombre para el perfil seleccionado"
+   }
+}

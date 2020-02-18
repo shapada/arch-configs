@@ -1,0 +1,745 @@
+11:19:16 AM.364: CPU Name: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+11:19:16 AM.364: CPU Speed: 2144.690MHz
+11:19:16 AM.365: Physical Cores: 4, Logical Cores: 8
+11:19:16 AM.365: Physical Memory: 15898MB Total, 13550MB Free
+11:19:16 AM.366: Kernel Version: Linux 5.5.3-arch1-1
+11:19:16 AM.366: Distribution: "ArcoLinux" v20.1.4
+11:19:16 AM.367: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.7
+11:19:16 AM.369: Portable mode: false
+11:19:16 AM.452: OBS 24.0.6-1 (linux)
+11:19:16 AM.452: ---------------------------------
+11:19:16 AM.452: ---------------------------------
+11:19:16 AM.452: audio settings reset:
+11:19:16 AM.452: 	samples per sec: 44100
+11:19:16 AM.452: 	speakers:        2
+11:19:16 AM.457: ---------------------------------
+11:19:16 AM.457: Initializing OpenGL...
+11:19:16 AM.483: Loading up OpenGL on adapter Intel Open Source Technology Center Mesa DRI Intel(R) UHD Graphics 620 (Kabylake GT2) 
+11:19:16 AM.483: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 19.3.3, shading language 4.60
+11:19:16 AM.496: ---------------------------------
+11:19:16 AM.496: video settings reset:
+11:19:16 AM.496: 	base resolution:   1360x768
+11:19:16 AM.496: 	output resolution: 1360x768
+11:19:16 AM.496: 	downscale filter:  Bicubic
+11:19:16 AM.496: 	fps:               60/1
+11:19:16 AM.496: 	format:            NV12
+11:19:16 AM.496: 	YUV mode:          601/Partial
+11:19:16 AM.496: NV12 texture support not available
+11:19:16 AM.496: Audio monitoring device:
+11:19:16 AM.496: 	name: Default
+11:19:16 AM.496: 	id: default
+11:19:16 AM.496: ---------------------------------
+11:19:16 AM.497: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+11:19:16 AM.556: No blackmagic support
+11:19:16 AM.565: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+11:19:16 AM.565: 
+11:19:16 AM.565: FFMPEG VAAPI supported
+11:19:16 AM.572: VLC found, VLC video source enabled
+11:19:16 AM.572: ---------------------------------
+11:19:16 AM.572:   Loaded Modules:
+11:19:16 AM.572:     vlc-video.so
+11:19:16 AM.572:     text-freetype2.so
+11:19:16 AM.572:     rtmp-services.so
+11:19:16 AM.572:     obs-x264.so
+11:19:16 AM.572:     obs-transitions.so
+11:19:16 AM.572:     obs-outputs.so
+11:19:16 AM.572:     obs-libfdk.so
+11:19:16 AM.572:     obs-filters.so
+11:19:16 AM.572:     obs-ffmpeg.so
+11:19:16 AM.572:     linux-v4l2.so
+11:19:16 AM.572:     linux-pulseaudio.so
+11:19:16 AM.572:     linux-jack.so
+11:19:16 AM.572:     linux-decklink.so
+11:19:16 AM.572:     linux-capture.so
+11:19:16 AM.572:     linux-alsa.so
+11:19:16 AM.572:     image-source.so
+11:19:16 AM.572:     frontend-tools.so
+11:19:16 AM.572:     decklink-ouput-ui.so
+11:19:16 AM.572: ---------------------------------
+11:19:16 AM.572: ==== Startup complete ===============================================
+11:19:16 AM.573: All scene data cleared
+11:19:16 AM.573: ------------------------------------------------
+11:19:16 AM.575: pulse-input: Server name: 'pulseaudio 13.0'
+11:19:16 AM.575: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:19:16 AM.575: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+11:19:16 AM.576: pulse-input: Server name: 'pulseaudio 13.0'
+11:19:16 AM.576: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+11:19:16 AM.576: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3.analog-stereo'
+11:19:16 AM.577: v4l2-input: Start capture from /dev/video0
+11:19:16 AM.685: v4l2-input: Input: 0
+11:19:16 AM.689: v4l2-input: Resolution: 1280x720
+11:19:16 AM.689: v4l2-input: Pixelformat: VYUY
+11:19:16 AM.689: v4l2-input: Linesize: 2560 Bytes
+11:19:16 AM.691: v4l2-input: Framerate: 10.00 fps
+11:19:16 AM.695: Switched to scene 'Scene'
+11:19:16 AM.695: ------------------------------------------------
+11:19:16 AM.695: Loaded scenes:
+11:19:16 AM.695: - scene 'Scene':
+11:19:16 AM.695:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+11:19:16 AM.695: ------------------------------------------------
+11:19:19 AM.113: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds (source: Desktop Audio)
+11:19:19 AM.113: 
+11:22:29 AM.768: 
+11:22:29 AM.768: ==== Auto-config wizard testing commencing ======
+
+11:22:29 AM.780: ---------------------------------
+11:22:29 AM.780: video settings reset:
+11:22:29 AM.780: 	base resolution:   1360x768
+11:22:29 AM.780: 	output resolution: 128x128
+11:22:29 AM.780: 	downscale filter:  Bicubic
+11:22:29 AM.780: 	fps:               60/1
+11:22:29 AM.780: 	format:            NV12
+11:22:29 AM.780: 	YUV mode:          601/Partial
+11:22:29 AM.780: NV12 texture support not available
+11:22:29 AM.806: ---------------------------------
+11:22:29 AM.806: [x264 encoder: 'test_x264'] preset: veryfast
+11:22:29 AM.806: [x264 encoder: 'test_x264'] settings:
+11:22:29 AM.806: 	rate_control: CBR
+11:22:29 AM.806: 	bitrate:      10000
+11:22:29 AM.806: 	buffer size:  10000
+11:22:29 AM.806: 	crf:          0
+11:22:29 AM.806: 	fps_num:      60
+11:22:29 AM.806: 	fps_den:      1
+11:22:29 AM.806: 	width:        128
+11:22:29 AM.806: 	height:       128
+11:22:29 AM.806: 	keyint:       120
+11:22:29 AM.806: 
+11:22:29 AM.807: ---------------------------------
+11:22:29 AM.808: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:22:29 AM.808: 
+11:22:29 AM.811: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live.stream.highwebmedia.com/live-origin...
+11:22:32 AM.431: [rtmp stream: 'test_stream'] Connection to rtmp://live.stream.highwebmedia.com/live-origin successful
+11:22:49 AM.236: [rtmp stream: 'test_stream'] User stopped the stream
+11:22:49 AM.236: Output 'test_stream': stopping
+11:22:49 AM.236: Output 'test_stream': Total frames output: 79 (989 attempted)
+11:22:49 AM.236: Output 'test_stream': Total drawn frames: 1166
+11:22:49 AM.236: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 910 (92.0%)
+11:22:49 AM.236: [rtmp stream: 'test_stream'] Freeing 207 remaining packets
+11:22:49 AM.241: ---------------------------------
+11:22:49 AM.241: [x264 encoder: 'test_x264'] preset: veryfast
+11:22:49 AM.241: [x264 encoder: 'test_x264'] settings:
+11:22:49 AM.241: 	rate_control: CBR
+11:22:49 AM.241: 	bitrate:      10000
+11:22:49 AM.241: 	buffer size:  10000
+11:22:49 AM.241: 	crf:          0
+11:22:49 AM.241: 	fps_num:      60
+11:22:49 AM.241: 	fps_den:      1
+11:22:49 AM.241: 	width:        128
+11:22:49 AM.241: 	height:       128
+11:22:49 AM.241: 	keyint:       120
+11:22:49 AM.241: 
+11:22:49 AM.245: ---------------------------------
+11:22:49 AM.246: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:22:49 AM.246: 
+11:22:49 AM.248: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-backup.stream.highwebmedia.com/live-origin...
+11:22:51 AM.844: [rtmp stream: 'test_stream'] Connection to rtmp://live-backup.stream.highwebmedia.com/live-origin successful
+11:23:05 AM.495: [rtmp stream: 'test_stream'] User stopped the stream
+11:23:05 AM.495: Output 'test_stream': stopping
+11:23:05 AM.495: Output 'test_stream': Total frames output: 77 (800 attempted)
+11:23:05 AM.495: Output 'test_stream': Total drawn frames: 974
+11:23:05 AM.495: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 723 (90.4%)
+11:23:05 AM.495: [rtmp stream: 'test_stream'] Freeing 33 remaining packets
+11:23:05 AM.498: ---------------------------------
+11:23:05 AM.499: [x264 encoder: 'test_x264'] preset: veryfast
+11:23:05 AM.499: [x264 encoder: 'test_x264'] settings:
+11:23:05 AM.499: 	rate_control: CBR
+11:23:05 AM.499: 	bitrate:      10000
+11:23:05 AM.499: 	buffer size:  10000
+11:23:05 AM.499: 	crf:          0
+11:23:05 AM.499: 	fps_num:      60
+11:23:05 AM.499: 	fps_den:      1
+11:23:05 AM.499: 	width:        128
+11:23:05 AM.499: 	height:       128
+11:23:05 AM.499: 	keyint:       120
+11:23:05 AM.499: 
+11:23:05 AM.501: ---------------------------------
+11:23:05 AM.502: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:23:05 AM.502: 
+11:23:05 AM.503: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-sea.stream.highwebmedia.com/live-origin...
+11:23:07 AM.406: [rtmp stream: 'test_stream'] Connection to rtmp://live-sea.stream.highwebmedia.com/live-origin successful
+11:23:21 AM.351: [rtmp stream: 'test_stream'] User stopped the stream
+11:23:21 AM.351: Output 'test_stream': stopping
+11:23:21 AM.351: Output 'test_stream': Total frames output: 57 (818 attempted)
+11:23:21 AM.351: Output 'test_stream': Total drawn frames: 951
+11:23:21 AM.351: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 761 (93.0%)
+11:23:21 AM.351: [rtmp stream: 'test_stream'] Freeing 46 remaining packets
+11:23:21 AM.353: ---------------------------------
+11:23:21 AM.353: [x264 encoder: 'test_x264'] preset: veryfast
+11:23:21 AM.353: [x264 encoder: 'test_x264'] settings:
+11:23:21 AM.353: 	rate_control: CBR
+11:23:21 AM.353: 	bitrate:      10000
+11:23:21 AM.353: 	buffer size:  10000
+11:23:21 AM.353: 	crf:          0
+11:23:21 AM.353: 	fps_num:      60
+11:23:21 AM.353: 	fps_den:      1
+11:23:21 AM.353: 	width:        128
+11:23:21 AM.353: 	height:       128
+11:23:21 AM.353: 	keyint:       120
+11:23:21 AM.353: 
+11:23:21 AM.354: ---------------------------------
+11:23:21 AM.354: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:23:21 AM.354: 
+11:23:21 AM.355: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-phx.stream.highwebmedia.com/live-origin...
+11:23:23 AM.748: [rtmp stream: 'test_stream'] Connection to rtmp://live-phx.stream.highwebmedia.com/live-origin successful
+11:23:37 AM.019: [rtmp stream: 'test_stream'] User stopped the stream
+11:23:37 AM.019: Output 'test_stream': stopping
+11:23:37 AM.019: Output 'test_stream': Total frames output: 24 (777 attempted)
+11:23:37 AM.019: Output 'test_stream': Total drawn frames: 940
+11:23:37 AM.019: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 753 (96.9%)
+11:23:37 AM.019: [rtmp stream: 'test_stream'] Freeing 18 remaining packets
+11:23:37 AM.023: ---------------------------------
+11:23:37 AM.023: [x264 encoder: 'test_x264'] preset: veryfast
+11:23:37 AM.023: [x264 encoder: 'test_x264'] settings:
+11:23:37 AM.023: 	rate_control: CBR
+11:23:37 AM.023: 	bitrate:      10000
+11:23:37 AM.023: 	buffer size:  10000
+11:23:37 AM.023: 	crf:          0
+11:23:37 AM.023: 	fps_num:      60
+11:23:37 AM.023: 	fps_den:      1
+11:23:37 AM.023: 	width:        128
+11:23:37 AM.023: 	height:       128
+11:23:37 AM.023: 	keyint:       120
+11:23:37 AM.023: 
+11:23:37 AM.025: ---------------------------------
+11:23:37 AM.025: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:23:37 AM.025: 
+11:23:37 AM.027: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-slc.stream.highwebmedia.com/live-origin...
+11:23:41 AM.231: [rtmp stream: 'test_stream'] Connection to rtmp://live-slc.stream.highwebmedia.com/live-origin successful
+11:24:01 AM.488: [rtmp stream: 'test_stream'] User stopped the stream
+11:24:01 AM.488: Output 'test_stream': stopping
+11:24:01 AM.488: Output 'test_stream': Total frames output: 31 (1196 attempted)
+11:24:01 AM.488: Output 'test_stream': Total drawn frames: 1468
+11:24:01 AM.488: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 1165 (97.4%)
+11:24:01 AM.488: [rtmp stream: 'test_stream'] Freeing 327 remaining packets
+11:24:01 AM.493: ---------------------------------
+11:24:01 AM.493: [x264 encoder: 'test_x264'] preset: veryfast
+11:24:01 AM.493: [x264 encoder: 'test_x264'] settings:
+11:24:01 AM.493: 	rate_control: CBR
+11:24:01 AM.493: 	bitrate:      10000
+11:24:01 AM.493: 	buffer size:  10000
+11:24:01 AM.493: 	crf:          0
+11:24:01 AM.493: 	fps_num:      60
+11:24:01 AM.493: 	fps_den:      1
+11:24:01 AM.493: 	width:        128
+11:24:01 AM.493: 	height:       128
+11:24:01 AM.493: 	keyint:       120
+11:24:01 AM.493: 
+11:24:01 AM.497: ---------------------------------
+11:24:01 AM.498: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:24:01 AM.498: 
+11:24:01 AM.500: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-chi.stream.highwebmedia.com/live-origin...
+11:24:03 AM.324: [rtmp stream: 'test_stream'] Connection to rtmp://live-chi.stream.highwebmedia.com/live-origin successful
+11:24:19 AM.110: [rtmp stream: 'test_stream'] User stopped the stream
+11:24:19 AM.110: Output 'test_stream': stopping
+11:24:19 AM.110: Output 'test_stream': Total frames output: 81 (928 attempted)
+11:24:19 AM.110: Output 'test_stream': Total drawn frames: 1056
+11:24:19 AM.110: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 847 (91.3%)
+11:24:19 AM.110: [rtmp stream: 'test_stream'] Freeing 126 remaining packets
+11:24:19 AM.114: ---------------------------------
+11:24:19 AM.114: [x264 encoder: 'test_x264'] preset: veryfast
+11:24:19 AM.114: [x264 encoder: 'test_x264'] settings:
+11:24:19 AM.114: 	rate_control: CBR
+11:24:19 AM.114: 	bitrate:      10000
+11:24:19 AM.114: 	buffer size:  10000
+11:24:19 AM.114: 	crf:          0
+11:24:19 AM.114: 	fps_num:      60
+11:24:19 AM.114: 	fps_den:      1
+11:24:19 AM.114: 	width:        128
+11:24:19 AM.114: 	height:       128
+11:24:19 AM.114: 	keyint:       120
+11:24:19 AM.114: 
+11:24:19 AM.116: ---------------------------------
+11:24:19 AM.116: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:24:19 AM.116: 
+11:24:19 AM.117: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-atl.stream.highwebmedia.com/live-origin...
+11:24:21 AM.095: [rtmp stream: 'test_stream'] Connection to rtmp://live-atl.stream.highwebmedia.com/live-origin successful
+11:24:35 AM.406: [rtmp stream: 'test_stream'] User stopped the stream
+11:24:35 AM.406: Output 'test_stream': stopping
+11:24:35 AM.406: Output 'test_stream': Total frames output: 93 (840 attempted)
+11:24:35 AM.406: Output 'test_stream': Total drawn frames: 977
+11:24:35 AM.406: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 747 (88.9%)
+11:24:35 AM.406: [rtmp stream: 'test_stream'] Freeing 69 remaining packets
+11:24:35 AM.411: ---------------------------------
+11:24:35 AM.411: [x264 encoder: 'test_x264'] preset: veryfast
+11:24:35 AM.411: [x264 encoder: 'test_x264'] settings:
+11:24:35 AM.411: 	rate_control: CBR
+11:24:35 AM.411: 	bitrate:      10000
+11:24:35 AM.411: 	buffer size:  10000
+11:24:35 AM.411: 	crf:          0
+11:24:35 AM.411: 	fps_num:      60
+11:24:35 AM.411: 	fps_den:      1
+11:24:35 AM.411: 	width:        128
+11:24:35 AM.411: 	height:       128
+11:24:35 AM.411: 	keyint:       120
+11:24:35 AM.411: 
+11:24:35 AM.414: ---------------------------------
+11:24:35 AM.414: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:24:35 AM.414: 
+11:24:35 AM.417: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-ash.stream.highwebmedia.com/live-origin...
+11:24:36 AM.838: [rtmp stream: 'test_stream'] Connection to rtmp://live-ash.stream.highwebmedia.com/live-origin successful
+11:24:51 AM.200: [rtmp stream: 'test_stream'] User stopped the stream
+11:24:51 AM.200: Output 'test_stream': stopping
+11:24:51 AM.200: Output 'test_stream': Total frames output: 103 (843 attempted)
+11:24:51 AM.200: Output 'test_stream': Total drawn frames: 947
+11:24:51 AM.200: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 740 (87.8%)
+11:24:51 AM.200: [rtmp stream: 'test_stream'] Freeing 75 remaining packets
+11:24:51 AM.201: ---------------------------------
+11:24:51 AM.201: [x264 encoder: 'test_x264'] preset: veryfast
+11:24:51 AM.201: [x264 encoder: 'test_x264'] settings:
+11:24:51 AM.201: 	rate_control: CBR
+11:24:51 AM.201: 	bitrate:      10000
+11:24:51 AM.201: 	buffer size:  10000
+11:24:51 AM.201: 	crf:          0
+11:24:51 AM.201: 	fps_num:      60
+11:24:51 AM.201: 	fps_den:      1
+11:24:51 AM.201: 	width:        128
+11:24:51 AM.201: 	height:       128
+11:24:51 AM.201: 	keyint:       120
+11:24:51 AM.201: 
+11:24:51 AM.202: ---------------------------------
+11:24:51 AM.202: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:24:51 AM.202: 
+11:24:51 AM.202: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-gru.stream.highwebmedia.com/live-origin...
+11:24:54 AM.921: [rtmp stream: 'test_stream'] Connection to rtmp://live-gru.stream.highwebmedia.com/live-origin successful
+11:25:12 AM.848: [rtmp stream: 'test_stream'] User stopped the stream
+11:25:12 AM.848: Output 'test_stream': stopping
+11:25:12 AM.848: Output 'test_stream': Total frames output: 17 (1056 attempted)
+11:25:12 AM.848: Output 'test_stream': Total drawn frames: 1299
+11:25:12 AM.848: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 1039 (98.4%)
+11:25:12 AM.848: [rtmp stream: 'test_stream'] Freeing 220 remaining packets
+11:25:12 AM.850: ---------------------------------
+11:25:12 AM.850: [x264 encoder: 'test_x264'] preset: veryfast
+11:25:12 AM.850: [x264 encoder: 'test_x264'] settings:
+11:25:12 AM.850: 	rate_control: CBR
+11:25:12 AM.850: 	bitrate:      10000
+11:25:12 AM.850: 	buffer size:  10000
+11:25:12 AM.850: 	crf:          0
+11:25:12 AM.850: 	fps_num:      60
+11:25:12 AM.850: 	fps_den:      1
+11:25:12 AM.850: 	width:        128
+11:25:12 AM.850: 	height:       128
+11:25:12 AM.850: 	keyint:       120
+11:25:12 AM.850: 
+11:25:12 AM.851: ---------------------------------
+11:25:12 AM.851: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:25:12 AM.851: 
+11:25:12 AM.851: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-nld.stream.highwebmedia.com/live-origin...
+11:25:17 AM.574: [rtmp stream: 'test_stream'] Connection to rtmp://live-nld.stream.highwebmedia.com/live-origin successful
+11:25:32 AM.111: [rtmp stream: 'test_stream'] User stopped the stream
+11:25:32 AM.111: Output 'test_stream': stopping
+11:25:32 AM.111: Output 'test_stream': Total frames output: 42 (853 attempted)
+11:25:32 AM.111: Output 'test_stream': Total drawn frames: 1155
+11:25:32 AM.111: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 811 (95.1%)
+11:25:32 AM.111: [rtmp stream: 'test_stream'] Freeing 91 remaining packets
+11:25:32 AM.116: ---------------------------------
+11:25:32 AM.116: [x264 encoder: 'test_x264'] preset: veryfast
+11:25:32 AM.116: [x264 encoder: 'test_x264'] settings:
+11:25:32 AM.116: 	rate_control: CBR
+11:25:32 AM.116: 	bitrate:      10000
+11:25:32 AM.116: 	buffer size:  10000
+11:25:32 AM.116: 	crf:          0
+11:25:32 AM.116: 	fps_num:      60
+11:25:32 AM.116: 	fps_den:      1
+11:25:32 AM.116: 	width:        128
+11:25:32 AM.116: 	height:       128
+11:25:32 AM.116: 	keyint:       120
+11:25:32 AM.116: 
+11:25:32 AM.118: ---------------------------------
+11:25:32 AM.119: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:25:32 AM.119: 
+11:25:32 AM.121: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-alb.stream.highwebmedia.com/live-origin...
+11:25:36 AM.368: [rtmp stream: 'test_stream'] Connection to rtmp://live-alb.stream.highwebmedia.com/live-origin successful
+11:25:52 AM.466: [rtmp stream: 'test_stream'] User stopped the stream
+11:25:52 AM.466: Output 'test_stream': stopping
+11:25:52 AM.467: Output 'test_stream': Total frames output: 19 (946 attempted)
+11:25:52 AM.467: Output 'test_stream': Total drawn frames: 1221
+11:25:52 AM.467: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 927 (98.0%)
+11:25:52 AM.467: [rtmp stream: 'test_stream'] Freeing 140 remaining packets
+11:25:52 AM.473: ---------------------------------
+11:25:52 AM.473: [x264 encoder: 'test_x264'] preset: veryfast
+11:25:52 AM.473: [x264 encoder: 'test_x264'] settings:
+11:25:52 AM.473: 	rate_control: CBR
+11:25:52 AM.473: 	bitrate:      10000
+11:25:52 AM.473: 	buffer size:  10000
+11:25:52 AM.473: 	crf:          0
+11:25:52 AM.473: 	fps_num:      60
+11:25:52 AM.473: 	fps_den:      1
+11:25:52 AM.473: 	width:        128
+11:25:52 AM.473: 	height:       128
+11:25:52 AM.473: 	keyint:       120
+11:25:52 AM.473: 
+11:25:52 AM.476: ---------------------------------
+11:25:52 AM.476: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:25:52 AM.476: 
+11:25:52 AM.477: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-fra.stream.highwebmedia.com/live-origin...
+11:25:55 AM.638: [rtmp stream: 'test_stream'] Connection to rtmp://live-fra.stream.highwebmedia.com/live-origin successful
+11:26:11 AM.547: [rtmp stream: 'test_stream'] User stopped the stream
+11:26:11 AM.547: Output 'test_stream': stopping
+11:26:11 AM.547: Output 'test_stream': Total frames output: 38 (936 attempted)
+11:26:11 AM.547: Output 'test_stream': Total drawn frames: 1144
+11:26:11 AM.547: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 898 (95.9%)
+11:26:11 AM.547: [rtmp stream: 'test_stream'] Freeing 132 remaining packets
+11:26:11 AM.548: ---------------------------------
+11:26:11 AM.548: [x264 encoder: 'test_x264'] preset: veryfast
+11:26:11 AM.548: [x264 encoder: 'test_x264'] settings:
+11:26:11 AM.548: 	rate_control: CBR
+11:26:11 AM.548: 	bitrate:      10000
+11:26:11 AM.548: 	buffer size:  10000
+11:26:11 AM.548: 	crf:          0
+11:26:11 AM.548: 	fps_num:      60
+11:26:11 AM.548: 	fps_den:      1
+11:26:11 AM.548: 	width:        128
+11:26:11 AM.548: 	height:       128
+11:26:11 AM.548: 	keyint:       120
+11:26:11 AM.548: 
+11:26:11 AM.549: ---------------------------------
+11:26:11 AM.549: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:26:11 AM.549: 
+11:26:11 AM.550: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-srb.stream.highwebmedia.com/live-origin...
+11:26:15 AM.208: [rtmp stream: 'test_stream'] Connection to rtmp://live-srb.stream.highwebmedia.com/live-origin successful
+11:26:30 AM.024: [rtmp stream: 'test_stream'] User stopped the stream
+11:26:30 AM.024: Output 'test_stream': stopping
+11:26:30 AM.024: Output 'test_stream': Total frames output: 54 (870 attempted)
+11:26:30 AM.024: Output 'test_stream': Total drawn frames: 1108
+11:26:30 AM.024: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 816 (93.8%)
+11:26:30 AM.024: [rtmp stream: 'test_stream'] Freeing 121 remaining packets
+11:26:30 AM.028: ---------------------------------
+11:26:30 AM.028: [x264 encoder: 'test_x264'] preset: veryfast
+11:26:30 AM.028: [x264 encoder: 'test_x264'] settings:
+11:26:30 AM.028: 	rate_control: CBR
+11:26:30 AM.028: 	bitrate:      10000
+11:26:30 AM.028: 	buffer size:  10000
+11:26:30 AM.028: 	crf:          0
+11:26:30 AM.028: 	fps_num:      60
+11:26:30 AM.028: 	fps_den:      1
+11:26:30 AM.028: 	width:        128
+11:26:30 AM.028: 	height:       128
+11:26:30 AM.028: 	keyint:       120
+11:26:30 AM.028: 
+11:26:30 AM.031: ---------------------------------
+11:26:30 AM.031: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:26:30 AM.031: 
+11:26:30 AM.033: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-sin.stream.highwebmedia.com/live-origin...
+11:26:35 AM.317: [rtmp stream: 'test_stream'] Connection to rtmp://live-sin.stream.highwebmedia.com/live-origin successful
+11:27:02 AM.675: [rtmp stream: 'test_stream'] User stopped the stream
+11:27:02 AM.675: Output 'test_stream': stopping
+11:27:02 AM.675: Output 'test_stream': Total frames output: 22 (1623 attempted)
+11:27:02 AM.675: Output 'test_stream': Total drawn frames: 1958
+11:27:02 AM.675: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 1601 (98.6%)
+11:27:02 AM.675: [rtmp stream: 'test_stream'] Freeing 631 remaining packets
+11:27:02 AM.680: ---------------------------------
+11:27:02 AM.680: [x264 encoder: 'test_x264'] preset: veryfast
+11:27:02 AM.680: [x264 encoder: 'test_x264'] settings:
+11:27:02 AM.680: 	rate_control: CBR
+11:27:02 AM.680: 	bitrate:      10000
+11:27:02 AM.680: 	buffer size:  10000
+11:27:02 AM.680: 	crf:          0
+11:27:02 AM.680: 	fps_num:      60
+11:27:02 AM.680: 	fps_den:      1
+11:27:02 AM.680: 	width:        128
+11:27:02 AM.680: 	height:       128
+11:27:02 AM.680: 	keyint:       120
+11:27:02 AM.680: 
+11:27:02 AM.684: ---------------------------------
+11:27:02 AM.684: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:27:02 AM.684: 
+11:27:02 AM.686: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-nrt.stream.highwebmedia.com/live-origin...
+11:27:04 AM.998: [rtmp stream: 'test_stream'] Connection to rtmp://live-nrt.stream.highwebmedia.com/live-origin successful
+11:27:22 AM.029: [rtmp stream: 'test_stream'] User stopped the stream
+11:27:22 AM.029: Output 'test_stream': stopping
+11:27:22 AM.029: Output 'test_stream': Total frames output: 92 (1002 attempted)
+11:27:22 AM.029: Output 'test_stream': Total drawn frames: 1160
+11:27:22 AM.029: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 910 (90.8%)
+11:27:22 AM.029: [rtmp stream: 'test_stream'] Freeing 230 remaining packets
+11:27:22 AM.031: ---------------------------------
+11:27:22 AM.031: [x264 encoder: 'test_x264'] preset: veryfast
+11:27:22 AM.031: [x264 encoder: 'test_x264'] settings:
+11:27:22 AM.031: 	rate_control: CBR
+11:27:22 AM.031: 	bitrate:      10000
+11:27:22 AM.031: 	buffer size:  10000
+11:27:22 AM.031: 	crf:          0
+11:27:22 AM.031: 	fps_num:      60
+11:27:22 AM.031: 	fps_den:      1
+11:27:22 AM.031: 	width:        128
+11:27:22 AM.031: 	height:       128
+11:27:22 AM.031: 	keyint:       120
+11:27:22 AM.031: 
+11:27:22 AM.033: ---------------------------------
+11:27:22 AM.033: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:27:22 AM.033: 
+11:27:22 AM.034: [rtmp stream: 'test_stream'] Connecting to RTMP URL rtmp://live-syd.stream.highwebmedia.com/live-origin...
+11:27:29 AM.714: [rtmp stream: 'test_stream'] Connection to rtmp://live-syd.stream.highwebmedia.com/live-origin successful
+11:27:47 AM.538: [rtmp stream: 'test_stream'] User stopped the stream
+11:27:47 AM.538: Output 'test_stream': stopping
+11:27:47 AM.538: Output 'test_stream': Total frames output: 56 (1050 attempted)
+11:27:47 AM.538: Output 'test_stream': Total drawn frames: 1530
+11:27:47 AM.538: Output 'test_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 994 (94.7%)
+11:27:47 AM.538: [rtmp stream: 'test_stream'] Freeing 215 remaining packets
+11:27:47 AM.547: ---------------------------------
+11:27:47 AM.547: video settings reset:
+11:27:47 AM.547: 	base resolution:   1360x768
+11:27:47 AM.547: 	output resolution: 1360x768
+11:27:47 AM.547: 	downscale filter:  Bicubic
+11:27:47 AM.547: 	fps:               60/1
+11:27:47 AM.547: 	format:            NV12
+11:27:47 AM.547: 	YUV mode:          601/Partial
+11:27:47 AM.547: NV12 texture support not available
+11:27:47 AM.565: ---------------------------------
+11:27:47 AM.565: video settings reset:
+11:27:47 AM.565: 	base resolution:   1360x768
+11:27:47 AM.565: 	output resolution: 604x340
+11:27:47 AM.565: 	downscale filter:  Bicubic
+11:27:47 AM.565: 	fps:               30/1
+11:27:47 AM.565: 	format:            NV12
+11:27:47 AM.565: 	YUV mode:          601/Partial
+11:27:47 AM.565: NV12 texture support not available
+11:27:47 AM.565: ---------------------------------
+11:27:47 AM.565: [x264 encoder: 'test_x264'] preset: veryfast
+11:27:47 AM.565: [x264 encoder: 'test_x264'] profile: main
+11:27:47 AM.565: [x264 encoder: 'test_x264'] settings:
+11:27:47 AM.565: 	rate_control: CBR
+11:27:47 AM.565: 	bitrate:      665
+11:27:47 AM.565: 	buffer size:  665
+11:27:47 AM.565: 	crf:          0
+11:27:47 AM.565: 	fps_num:      30
+11:27:47 AM.565: 	fps_den:      1
+11:27:47 AM.565: 	width:        604
+11:27:47 AM.565: 	height:       340
+11:27:47 AM.565: 	keyint:       60
+11:27:47 AM.565: 
+11:27:47 AM.567: ---------------------------------
+11:27:47 AM.567: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:27:47 AM.567: 
+11:27:52 AM.568: Output 'null': stopping
+11:27:52 AM.568: Output 'null': Total frames output: 124
+11:27:52 AM.568: Output 'null': Total drawn frames: 150
+11:27:52 AM.598: ---------------------------------
+11:27:52 AM.598: video settings reset:
+11:27:52 AM.598: 	base resolution:   1360x768
+11:27:52 AM.598: 	output resolution: 1360x768
+11:27:52 AM.598: 	downscale filter:  Bicubic
+11:27:52 AM.598: 	fps:               60/1
+11:27:52 AM.598: 	format:            NV12
+11:27:52 AM.598: 	YUV mode:          601/Partial
+11:27:52 AM.598: NV12 texture support not available
+11:28:43 AM.799: ---------------------------------
+11:28:43 AM.799: video settings reset:
+11:28:43 AM.799: 	base resolution:   1360x768
+11:28:43 AM.799: 	output resolution: 604x340
+11:28:43 AM.799: 	downscale filter:  Bicubic
+11:28:43 AM.799: 	fps:               30/1
+11:28:43 AM.799: 	format:            NV12
+11:28:43 AM.799: 	YUV mode:          601/Partial
+11:28:43 AM.799: NV12 texture support not available
+11:28:43 AM.802: 
+11:28:43 AM.802: ==== Auto-config wizard testing stopping ========
+
+11:37:09 AM.975: ---------------------------------
+11:37:09 AM.975: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+11:37:09 AM.975: [x264 encoder: 'simple_h264_stream'] settings:
+11:37:09 AM.975: 	rate_control: CBR
+11:37:09 AM.975: 	bitrate:      665
+11:37:09 AM.975: 	buffer size:  665
+11:37:09 AM.975: 	crf:          0
+11:37:09 AM.975: 	fps_num:      30
+11:37:09 AM.975: 	fps_den:      1
+11:37:09 AM.975: 	width:        604
+11:37:09 AM.975: 	height:       340
+11:37:09 AM.975: 	keyint:       60
+11:37:09 AM.975: 
+11:37:09 AM.978: libfdk_aac encoder created
+11:37:09 AM.978: libfdk_aac bitrate: 160, channels: 2
+11:37:09 AM.979: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-ash.stream.highwebmedia.com/live-origin...
+11:37:15 AM.897: [rtmp stream: 'simple_stream'] Connection to rtmp://live-ash.stream.highwebmedia.com/live-origin successful
+11:37:15 AM.899: ==== Streaming Start ===============================================
+11:37:17 AM.426: [rtmp stream: 'simple_stream'] User stopped the stream
+11:37:17 AM.426: Output 'simple_stream': stopping
+11:37:17 AM.426: Output 'simple_stream': Total frames output: 21
+11:37:17 AM.426: Output 'simple_stream': Total drawn frames: 223
+11:37:17 AM.427: ==== Streaming Stop ================================================
+11:37:17 AM.435: libfdk_aac encoder destroyed
+11:37:59 AM.428: 
+11:37:59 AM.428: ==== Auto-config wizard testing commencing ======
+
+11:37:59 AM.433: ---------------------------------
+11:37:59 AM.433: video settings reset:
+11:37:59 AM.433: 	base resolution:   1360x768
+11:37:59 AM.433: 	output resolution: 1360x768
+11:37:59 AM.433: 	downscale filter:  Bicubic
+11:37:59 AM.433: 	fps:               60/1
+11:37:59 AM.433: 	format:            NV12
+11:37:59 AM.433: 	YUV mode:          601/Partial
+11:37:59 AM.433: NV12 texture support not available
+11:37:59 AM.434: ---------------------------------
+11:37:59 AM.434: [x264 encoder: 'test_x264'] preset: veryfast
+11:37:59 AM.434: [x264 encoder: 'test_x264'] profile: high
+11:37:59 AM.434: [x264 encoder: 'test_x264'] settings:
+11:37:59 AM.434: 	rate_control: CRF
+11:37:59 AM.434: 	bitrate:      0
+11:37:59 AM.434: 	buffer size:  0
+11:37:59 AM.434: 	crf:          20
+11:37:59 AM.434: 	fps_num:      60
+11:37:59 AM.434: 	fps_den:      1
+11:37:59 AM.434: 	width:        1360
+11:37:59 AM.434: 	height:       768
+11:37:59 AM.434: 	keyint:       250
+11:37:59 AM.434: 
+11:37:59 AM.440: ---------------------------------
+11:37:59 AM.440: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:37:59 AM.440: 
+11:38:04 AM.443: Output 'null': stopping
+11:38:04 AM.443: Output 'null': Total frames output: 261
+11:38:04 AM.443: Output 'null': Total drawn frames: 300
+11:38:04 AM.549: Video stopped, number of skipped frames due to encoding lag: 146/298 (49.0%)
+11:38:04 AM.684: ---------------------------------
+11:38:04 AM.684: video settings reset:
+11:38:04 AM.684: 	base resolution:   1360x768
+11:38:04 AM.684: 	output resolution: 1360x768
+11:38:04 AM.684: 	downscale filter:  Bicubic
+11:38:04 AM.684: 	fps:               30/1
+11:38:04 AM.684: 	format:            NV12
+11:38:04 AM.684: 	YUV mode:          601/Partial
+11:38:04 AM.684: NV12 texture support not available
+11:38:04 AM.684: ---------------------------------
+11:38:04 AM.684: [x264 encoder: 'test_x264'] preset: veryfast
+11:38:04 AM.684: [x264 encoder: 'test_x264'] profile: high
+11:38:04 AM.684: [x264 encoder: 'test_x264'] settings:
+11:38:04 AM.684: 	rate_control: CRF
+11:38:04 AM.684: 	bitrate:      0
+11:38:04 AM.684: 	buffer size:  0
+11:38:04 AM.684: 	crf:          20
+11:38:04 AM.684: 	fps_num:      30
+11:38:04 AM.684: 	fps_den:      1
+11:38:04 AM.684: 	width:        1360
+11:38:04 AM.684: 	height:       768
+11:38:04 AM.684: 	keyint:       250
+11:38:04 AM.684: 
+11:38:04 AM.688: ---------------------------------
+11:38:04 AM.688: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:38:04 AM.688: 
+11:38:09 AM.690: Output 'null': stopping
+11:38:09 AM.690: Output 'null': Total frames output: 122
+11:38:09 AM.690: Output 'null': Total drawn frames: 150
+11:38:09 AM.784: ---------------------------------
+11:38:09 AM.784: video settings reset:
+11:38:09 AM.784: 	base resolution:   1360x768
+11:38:09 AM.784: 	output resolution: 904x512
+11:38:09 AM.784: 	downscale filter:  Bicubic
+11:38:09 AM.784: 	fps:               60/1
+11:38:09 AM.784: 	format:            NV12
+11:38:09 AM.784: 	YUV mode:          601/Partial
+11:38:09 AM.784: NV12 texture support not available
+11:38:09 AM.784: ---------------------------------
+11:38:09 AM.784: [x264 encoder: 'test_x264'] preset: veryfast
+11:38:09 AM.784: [x264 encoder: 'test_x264'] profile: high
+11:38:09 AM.784: [x264 encoder: 'test_x264'] settings:
+11:38:09 AM.784: 	rate_control: CRF
+11:38:09 AM.784: 	bitrate:      0
+11:38:09 AM.784: 	buffer size:  0
+11:38:09 AM.784: 	crf:          20
+11:38:09 AM.784: 	fps_num:      60
+11:38:09 AM.784: 	fps_den:      1
+11:38:09 AM.784: 	width:        904
+11:38:09 AM.784: 	height:       512
+11:38:09 AM.784: 	keyint:       250
+11:38:09 AM.784: 
+11:38:09 AM.787: ---------------------------------
+11:38:09 AM.787: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:38:09 AM.787: 
+11:38:14 AM.791: Output 'null': stopping
+11:38:14 AM.791: Output 'null': Total frames output: 273
+11:38:14 AM.791: Output 'null': Total drawn frames: 300
+11:38:14 AM.818: ---------------------------------
+11:38:14 AM.818: video settings reset:
+11:38:14 AM.818: 	base resolution:   1360x768
+11:38:14 AM.818: 	output resolution: 904x512
+11:38:14 AM.818: 	downscale filter:  Bicubic
+11:38:14 AM.818: 	fps:               30/1
+11:38:14 AM.818: 	format:            NV12
+11:38:14 AM.818: 	YUV mode:          601/Partial
+11:38:14 AM.818: NV12 texture support not available
+11:38:14 AM.818: ---------------------------------
+11:38:14 AM.818: [x264 encoder: 'test_x264'] preset: veryfast
+11:38:14 AM.818: [x264 encoder: 'test_x264'] profile: high
+11:38:14 AM.819: [x264 encoder: 'test_x264'] settings:
+11:38:14 AM.819: 	rate_control: CRF
+11:38:14 AM.819: 	bitrate:      0
+11:38:14 AM.819: 	buffer size:  0
+11:38:14 AM.819: 	crf:          20
+11:38:14 AM.819: 	fps_num:      30
+11:38:14 AM.819: 	fps_den:      1
+11:38:14 AM.819: 	width:        904
+11:38:14 AM.819: 	height:       512
+11:38:14 AM.819: 	keyint:       250
+11:38:14 AM.819: 
+11:38:14 AM.821: ---------------------------------
+11:38:14 AM.821: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: 3
+11:38:14 AM.821: 
+11:38:19 AM.823: Output 'null': stopping
+11:38:19 AM.823: Output 'null': Total frames output: 123
+11:38:19 AM.823: Output 'null': Total drawn frames: 150
+11:38:19 AM.885: ---------------------------------
+11:38:19 AM.885: video settings reset:
+11:38:19 AM.885: 	base resolution:   1360x768
+11:38:19 AM.885: 	output resolution: 604x340
+11:38:19 AM.885: 	downscale filter:  Bicubic
+11:38:19 AM.885: 	fps:               30/1
+11:38:19 AM.885: 	format:            NV12
+11:38:19 AM.885: 	YUV mode:          601/Partial
+11:38:19 AM.885: NV12 texture support not available
+11:38:25 AM.986: ---------------------------------
+11:38:25 AM.986: video settings reset:
+11:38:25 AM.986: 	base resolution:   1360x768
+11:38:25 AM.986: 	output resolution: 1360x768
+11:38:25 AM.986: 	downscale filter:  Bicubic
+11:38:25 AM.986: 	fps:               30/1
+11:38:25 AM.986: 	format:            NV12
+11:38:25 AM.986: 	YUV mode:          601/Partial
+11:38:25 AM.986: NV12 texture support not available
+11:38:25 AM.992: 
+11:38:25 AM.992: ==== Auto-config wizard testing stopping ========
+
+11:38:43 AM.445: ---------------------------------
+11:38:43 AM.445: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+11:38:43 AM.445: [x264 encoder: 'simple_h264_recording'] profile: high
+11:38:43 AM.445: [x264 encoder: 'simple_h264_recording'] settings:
+11:38:43 AM.445: 	rate_control: CRF
+11:38:43 AM.445: 	bitrate:      0
+11:38:43 AM.445: 	buffer size:  0
+11:38:43 AM.445: 	crf:          21
+11:38:43 AM.445: 	fps_num:      30
+11:38:43 AM.445: 	fps_den:      1
+11:38:43 AM.445: 	width:        1360
+11:38:43 AM.445: 	height:       768
+11:38:43 AM.445: 	keyint:       250
+11:38:43 AM.445: 
+11:38:43 AM.447: libfdk_aac encoder created
+11:38:43 AM.447: libfdk_aac bitrate: 192, channels: 2
+11:38:43 AM.448: ==== Recording Start ===============================================
+11:38:43 AM.448: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/sd/2020-02-14 11-38-43.mkv'...
+11:57:06 AM.238: ---------------------------------
+11:57:06 AM.238: [x264 encoder: 'simple_h264_stream'] preset: veryfast
+11:57:06 AM.238: [x264 encoder: 'simple_h264_stream'] settings:
+11:57:06 AM.238: 	rate_control: CBR
+11:57:06 AM.238: 	bitrate:      665
+11:57:06 AM.238: 	buffer size:  665
+11:57:06 AM.238: 	crf:          0
+11:57:06 AM.238: 	fps_num:      30
+11:57:06 AM.238: 	fps_den:      1
+11:57:06 AM.238: 	width:        1360
+11:57:06 AM.238: 	height:       768
+11:57:06 AM.238: 	keyint:       60
+11:57:06 AM.238: 
+11:57:06 AM.243: libfdk_aac encoder created
+11:57:06 AM.243: libfdk_aac bitrate: 160, channels: 2
+11:57:06 AM.243: [rtmp stream: 'simple_stream'] Connecting to RTMP URL rtmp://live-ash.stream.highwebmedia.com/live-origin...
+11:57:12 AM.260: [rtmp stream: 'simple_stream'] Connection to rtmp://live-ash.stream.highwebmedia.com/live-origin successful
+11:57:12 AM.261: ==== Streaming Start ===============================================
+12:10:22 PM.218: [rtmp stream: 'simple_stream'] User stopped the stream
+12:10:22 PM.218: Output 'simple_stream': stopping
+12:10:22 PM.218: Output 'simple_stream': Total frames output: 18692 (23672 attempted)
+12:10:22 PM.218: Output 'simple_stream': Total drawn frames: 23878 (23879 attempted)
+12:10:22 PM.218: Output 'simple_stream': Number of lagged frames due to rendering lag/stalls: 1 (0.0%)
+12:10:22 PM.218: Output 'simple_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 4980 (21.0%)
+12:10:22 PM.218: ==== Streaming Stop ================================================
+12:10:22 PM.245: libfdk_aac encoder destroyed

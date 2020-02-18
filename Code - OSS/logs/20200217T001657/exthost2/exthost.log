@@ -1,0 +1,30 @@
+[2020-02-17 00:16:59.242] [exthost] [info] extension host started
+[2020-02-17 00:16:59.269] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-02-17 00:16:59.270] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2020-02-17 00:16:59.274] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-02-17 00:16:59.274] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/extension
+[2020-02-17 00:16:59.301] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-02-17 00:16:59.301] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2020-02-17 00:16:59.348] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-02-17 00:16:59.348] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/extension
+[2020-02-17 00:16:59.351] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-02-17 00:16:59.352] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/search-result/dist/extension.js
+[2020-02-17 00:16:59.353] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-02-17 00:16:59.353] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/vscode-account/dist/extension.js
+[2020-02-17 00:16:59.355] [exthost] [info] ExtensionService#_doActivateExtension ChirtleLovesDolls.nebula-theme {"startup":true,"extensionId":{"value":"ChirtleLovesDolls.nebula-theme","_lower":"chirtlelovesdolls.nebula-theme"},"activationEvent":"*"}
+[2020-02-17 00:16:59.355] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sd/.vscode-oss/extensions/chirtlelovesdolls.nebula-theme-1.3.2/out/src/extension
+[2020-02-17 00:16:59.384] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig {"startup":true,"extensionId":{"value":"EditorConfig.EditorConfig","_lower":"editorconfig.editorconfig"},"activationEvent":"*"}
+[2020-02-17 00:16:59.384] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sd/.vscode-oss/extensions/editorconfig.editorconfig-0.14.4/out/editorConfigMain.js
+[2020-02-17 00:16:59.399] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons {"startup":true,"extensionId":{"value":"equinusocio.vsc-material-theme-icons","_lower":"equinusocio.vsc-material-theme-icons"},"activationEvent":"*"}
+[2020-02-17 00:16:59.399] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sd/.vscode-oss/extensions/equinusocio.vsc-material-theme-icons-1.1.4/out/src/extension
+[2020-02-17 00:16:59.406] [exthost] [info] ExtensionService#_doActivateExtension huizhou.githd {"startup":true,"extensionId":{"value":"huizhou.githd","_lower":"huizhou.githd"},"activationEvent":"*"}
+[2020-02-17 00:16:59.406] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sd/.vscode-oss/extensions/huizhou.githd-2.2.1/out/src/extension
+[2020-02-17 00:16:59.415] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":true,"extensionId":{"value":"platformio.platformio-ide","_lower":"platformio.platformio-ide"},"activationEvent":"*"}
+[2020-02-17 00:16:59.415] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sd/.vscode-oss/extensions/ms-vscode.cpptools-0.26.3/dist/main
+[2020-02-17 00:16:59.502] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer {"startup":true,"extensionId":{"value":"ritwickdey.LiveServer","_lower":"ritwickdey.liveserver"},"activationEvent":"*"}
+[2020-02-17 00:16:59.502] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sd/.vscode-oss/extensions/ritwickdey.liveserver-5.6.1/out/src/extension
+[2020-02-17 00:16:59.736] [exthost] [info] ExtensionService#_doActivateExtension xyz.local-history {"startup":true,"extensionId":{"value":"xyz.local-history","_lower":"xyz.local-history"},"activationEvent":"*"}
+[2020-02-17 00:16:59.736] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sd/.vscode-oss/extensions/xyz.local-history-1.8.0/out/src/extension
+[2020-02-17 00:16:59.753] [exthost] [info] eager extensions activated
+[2020-02-17 00:16:59.844] [exthost] [info] ExtensionService#_doActivateExtension platformio.platformio-ide {"startup":true,"extensionId":{"value":"platformio.platformio-ide","_lower":"platformio.platformio-ide"},"activationEvent":"*"}
+[2020-02-17 00:16:59.844] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sd/.vscode-oss/extensions/platformio.platformio-ide-1.10.0/dist/extension

@@ -1,0 +1,15 @@
+2020/02/17-18:30:59.033 3f1b Reusing MANIFEST /home/sd/.config/chromium/Default/Session Storage/MANIFEST-000001
+2020/02/17-18:30:59.034 3f1b Recovering log #280
+2020/02/17-18:30:59.035 3f1b Reusing old log /home/sd/.config/chromium/Default/Session Storage/000280.log 
+2020/02/17-18:31:53.807 44e2 Level-0 table #284: started
+2020/02/17-18:31:53.813 44e2 Level-0 table #284: 16347 bytes OK
+2020/02/17-18:31:53.816 44e2 Delete type=0 #280
+2020/02/17-18:31:53.816 44e2 Compacting 4@0 + 1@1 files
+2020/02/17-18:31:53.826 44e2 Generated table #285@0: 43 keys, 14695 bytes
+2020/02/17-18:31:53.826 44e2 Compacted 4@0 + 1@1 files => 14695 bytes
+2020/02/17-18:31:53.830 44e2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/02/17-18:31:53.830 44e2 Delete type=2 #279
+2020/02/17-18:31:53.830 44e2 Delete type=2 #276
+2020/02/17-18:31:53.830 44e2 Delete type=2 #273
+2020/02/17-18:31:53.830 44e2 Delete type=2 #284
+2020/02/17-18:31:53.830 44e2 Delete type=2 #281

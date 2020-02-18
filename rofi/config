@@ -1,0 +1,6 @@
+configuration {
+    modi: "window,drun,ssh,combi";
+    font: "Droid Sans Mono 24";
+    theme: "blue";
+    combi-modi: "window,drun,ssh";
+ }

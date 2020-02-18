@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "TwoStones",
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 1,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "C_Cpp.updateChannel": "Insiders",
+    "sftp.downloadWhenOpenInRemoteExplorer": true,
+    "workbench.editor.showTabs": false,
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "default",
+    "breadcrumbs.enabled": true
+}

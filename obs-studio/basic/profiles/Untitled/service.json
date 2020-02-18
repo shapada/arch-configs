@@ -1,0 +1,8 @@
+{
+    "settings": {
+        "key": "68361161.45cd1e99dfbf04a05c25be534cc67f6154c30a344cf03abafd476b11485817c0",
+        "server": "rtmp://live-ash.stream.highwebmedia.com/live-origin",
+        "service": "Chaturbate"
+    },
+    "type": "rtmp_common"
+}
